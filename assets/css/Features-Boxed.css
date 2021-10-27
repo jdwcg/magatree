@@ -68,3 +68,13 @@
   margin-bottom: 20px;
 }
 
+section > .row > .col {
+  display: flex;
+  flex-direction: column;
+}
+
+section > .row > .col > img {
+  width: 100%;
+  background: #eee;
+}
+
