@@ -1,5 +1,6 @@
 header h2, header h1 {
   text-align: center;
+  background: blue;
 }
 
 header .homeImg {
