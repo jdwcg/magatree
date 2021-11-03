@@ -33,6 +33,11 @@ header {
    background: #602EDE;
    border-radius: 0 0 4rem 4rem;
    overflow: hidden;
+   > img {
+      @media (max-width: 360px) {
+         height: 100%;
+      }
+   }
 }
 .megaImg {
    width: 100%;
