@@ -16,12 +16,12 @@ h5 { font-size: 18px; }
 .thumbnailWrap, .container, header, section, .main, footer { background: #f8f8f8; max-width: 768px; margin: 0 auto; }
 
 header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: #602EDE; border-radius: 0 0 4rem 4rem; }
-header h1, header h2 { text-align: center; color: #fff; }
+header > h1, header h2 { text-align: center; color: #fff; }
 
 .megaImg { width: 100%; height: 70px; }
 
-.thumbnailWrap h3 { font-weight: 500; padding: 10px 2em; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
-.thumbnailWrap h3 span > a { font-size: 14px; padding: 4px 12px; border-radius: 3px; border: none; background: #fff; }
+.thumbnailWrap > h3 { font-weight: 500; padding: 10px 2em; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.thumbnailWrap > h3 span > a { font-size: 14px; padding: 4px 12px; border-radius: 3px; border: none; background: #fff; }
 
 .thumbnailWrap { padding: 1rem 0; }
 
@@ -30,6 +30,20 @@ header h1, header h2 { text-align: center; color: #fff; }
 .thumbnail article:not(:last-child) { margin-right: 14px; }
 .thumbnail article div:first-child { height: 120px; background: #aaa; border-radius: 8px 8px 0 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; }
 .thumbnail article div:last-child { padding: 1rem 1em; background: #fff; border-radius: 0 0 8px 8px; }
+.thumbnail article div:last-child > h4 { overflow: hidden; width: 100%; height: 42px; }
+.thumbnail article div:last-child > h5 { color: tomato; }
+
+.coupon { padding: 0 1.45em; }
+.coupon > article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.coupon > article > div:nth-child(1) { background: #fff; border-radius: 1.4rem 0 0 1.4rem; padding: 2rem 3em; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
+.coupon > article > div:nth-child(1) h2, .coupon > article > div:nth-child(1) h3, .coupon > article > div:nth-child(1) h5 { text-align: left; }
+.coupon > article > div:nth-child(1) span { font-size: 14px; }
+.coupon > article > div:nth-child(2) { -webkit-box-flex: .4; -ms-flex: .4; flex: .4; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 0 1.4rem 1.4rem 0; padding: 1rem 2em; background: #fff; }
+.coupon > article > div:nth-child(2) a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.coupon > article > div:nth-child(2) a i, .coupon > article > div:nth-child(2) a h2 { color: tomato; }
+.coupon > article > div:nth-child(2) a > i { font-size: 2.5rem; }
+.coupon > article > div:nth-child(2) a > h2 { font-size: 1rem; padding: 10px; }
+.coupon > article > div:not(:last-child) { margin-right: 4px; }
 
 footer { height: 100px; }
 
