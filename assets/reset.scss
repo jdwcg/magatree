@@ -87,10 +87,11 @@ header {
 }
 
 .coupon {
-   padding: .4rem 1.45em 1rem;
+   padding: 0 1.45em 1rem;
    > article {
       display: flex;
       justify-content: space-between;
+      padding: .4rem 0;
       > div {
          &:nth-child(1) {
             &:after {
@@ -104,7 +105,7 @@ header {
             position: relative;
             background: #fff;
             border-radius: 1.4rem 0 0 1.4rem;
-            padding: 2rem 3em;
+            padding: 1rem 1.9em;
             flex: 1;
             h2,h3,h5 {
                text-align: left;
