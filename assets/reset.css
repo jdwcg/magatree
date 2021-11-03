@@ -1,0 +1,36 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+*, body { font-family: 'Noto Sans KR', sans-serif; margin: 0; padding: 0; list-style: none; -webkit-box-sizing: border-box; box-sizing: border-box; text-decoration: none; color: #222; }
+
+body { background: #fff; }
+
+h1 { font-size: 20px; }
+
+h2 { font-size: 18px; }
+
+h3 { font-size: 16px; }
+
+h4 { font-size: 14px; }
+
+h5 { font-size: 18px; }
+
+.thumbnailWrap, .container, header, section, .main, footer { background: #f8f8f8; max-width: 768px; margin: 0 auto; }
+
+header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: #602EDE; border-radius: 0 0 4rem 4rem; }
+header h1, header h2 { text-align: center; color: #fff; }
+
+.megaImg { width: 100%; height: 100px; }
+
+.thumbnailWrap h3 { font-weight: 500; padding: 10px 2em; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.thumbnailWrap h3 span > a { font-size: 14px; padding: 4px 12px; border-radius: 3px; border: none; background: #fff; }
+
+.thumbnailWrap { padding: 1rem 0; }
+
+.thumbnail { padding: 0 1.45em; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.thumbnail article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
+.thumbnail article:not(:last-child) { margin-right: 14px; }
+.thumbnail article div:first-child { height: 120px; background: #aaa; border-radius: 8px 8px 0 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; }
+.thumbnail article div:last-child { padding: 1rem 1em; background: #fff; border-radius: 0 0 8px 8px; }
+
+footer { height: 100px; }
+
+/*# sourceMappingURL=reset.css.map */
