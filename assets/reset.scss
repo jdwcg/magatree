@@ -250,3 +250,11 @@ header {
     padding: 1rem 0; margin-top: 2rem;
   }
 }
+
+.closeXbtn {
+  color: #111 !important;
+  > i {
+    position: relative; z-index: 9;
+    color: #111 !important;
+  }
+}

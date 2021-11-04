@@ -77,4 +77,7 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .formComponent > a { text-align: center; padding: 1rem 0; text-decoration: underline; font-size: 14px; }
 .formComponent > p { color: #e76666; font-size: 12px; padding: 1rem 0; margin-top: 2rem; }
 
+.closeXbtn { color: #111 !important; }
+.closeXbtn > i { position: relative; z-index: 9; color: #111 !important; }
+
 /*# sourceMappingURL=reset.css.map */
