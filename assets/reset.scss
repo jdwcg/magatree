@@ -284,7 +284,38 @@ header {
     color: #666 !important; font-size: 1.6rem;
   }
 }
+.popupBg {
+  position: fixed;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: #111; opacity: .5;
+}
+.popup {
+  position: fixed; z-index: 10;
+  border-radius: 8px;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid tan;
+  width: 95%;
+  height: 95%;
+  background: #fff;
+  padding: 1rem;
+}
 
-#agree {
-
+// 버튼컴포넌트
+input, button {
+  width: 100%;
+  padding: 13px;
+  margin: 4px 0;
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  &[type="button"] {
+    background: #E76666; cursor: pointer;
+    color: #fff; font-weight: 500;
+    font-size: 16px;
+  }
+  &[type="checkbox"] {
+    width: auto;
+  }
 }
