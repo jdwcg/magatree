@@ -8,7 +8,7 @@
 }
 body {background: #fff;}
 h1{font-size: 20px;}h2{font-size: 18px;}h3{font-size: 16px;}h4{font-size: 14px;}
-h5{font-size: 18px;}
+h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
 .thumbnailWrap, .container, header, section, .main, footer {
    background: #f5f5f5;
    max-width: 768px;
@@ -66,6 +66,7 @@ header {
 }
 .thumbnail {
    padding: 0 1.45em;
+   @media(max-width:300px) {padding: 0 1em;}
    display: flex;
    justify-content: space-between;
    article {
@@ -103,12 +104,15 @@ header {
 }
 
 .coupon {
+  overflow: hidden;
    padding: 0 1.45em 1rem;
+     @media(max-width:300px) {padding: 0 1em;}
    > article {
       display: flex;
       justify-content: space-between;
       padding: .4rem 0;
       > div {
+        @media(max-width:300px) {padding: 0;}
          &:nth-child(1) {
             &:after {
                content:'';
@@ -167,7 +171,33 @@ header {
       }
    }
 }
+.height {
+   height: 80px; max-width: 768px;
+   margin: 0 auto;
+   background: #f5f5f5;
+}
 
-footer {
-   height: 100px;
+.bottomNav {
+  position: fixed; left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  border: 1px solid tan;
+  padding: 0 1em;
+  @media(max-width:300px) {padding: 0;}
+  >div.btns {
+    display: flex; justify-content: space-between;
+    > a {
+      padding: .3rem 0 .6rem;
+      border: 1px solid tan;
+      height: 100%;
+      width: 100%;
+      display: flex; flex-direction: column;
+      span {
+        font-size: 10px; text-align: center;
+        > i {font-size: 1.5rem;}
+      }
+    }
+  }
 }
