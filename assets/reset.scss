@@ -227,7 +227,7 @@ header {
     border: none;
     background: #eee;
     border-radius: 8px;
-    &[type="button"] {
+    &[type="button"], &[type="submit"] {
       background: #E76666; cursor: pointer;
       color: #fff; font-weight: 500;
       font-size: 16px;
@@ -241,7 +241,7 @@ header {
   }
   button {
     cursor: pointer;
-    border: 1px solid #eee; background: none;
+    border: 2px solid #eee; background: none;
     font-size: 16px;
   }
   hr {
@@ -265,13 +265,13 @@ header {
       margin-right: 10px;
     }
     input {
-      flex: 1;
+      padding: 13px 1em;
+      &:first-child {flex: 1;}
+      &:last-child {
+         flex: .3;border: 2px solid #eee; background: transparent; color: #666;
+      }
     }
-    button {
-      padding: 13px 0;
-      font-size: 14px;
-      flex: .3;
-    }
+
 
   }
 }
@@ -310,7 +310,7 @@ input, button {
   border: none;
   background: #eee;
   border-radius: 8px;
-  &[type="button"] {
+  &[type="button"], &[type="submit"]  {
     background: #E76666; cursor: pointer;
     color: #fff; font-weight: 500;
     font-size: 16px;

@@ -5,7 +5,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
    <link rel="stylesheet" href="assets/reset.css">
    <title>megatree</title>
-
 </head>
 <body>
 
@@ -21,21 +20,20 @@
     <input type="password" placeholder="연락처를 입력해 주세요.">
     <div class="inputInnerBtn">
       <input type="password" placeholder="대표매장을 선택해주세요.">
-      <button id="openPop">선택</button>
+      <input  type="button" id="openPop" value="선택">
     </div>
-    <input type="button" value="가입하기">
+    <input type="submit" value="가입하기" >
     <input type="checkbox" id="agree">
     <label for="agree">이용약관, 개인정보취급방침에 동의하십니까?</label>
   </form>
   <hr>
   <a href="">이용약관 확인하기</a>
   <a href="">개인정보취급방침 확인하기</a>
-
 </section>
 </div>
 
 <div class="popup" id="popup">
-  <i class="bi bi-x-lg"></i>
+  <i class="bi bi-x-lg" id="closePop"></i>
   <h1>매장찾기</h1>
   <hr>
   <input type="checkbox" id="heading">
@@ -55,7 +53,6 @@
   </article>
 </div>
 <div class="popupBg" id="popupBg"></div>
-
 <script src="assets/script.js"></script>
 
 </body>

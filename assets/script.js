@@ -1,10 +1,10 @@
-var openPop = document.getElementById('openPop');
-var popup = document.getElementById('popup');
-var popupBg = document.getElementById('popupBg');
-popup.style.display="none";
-popupBg.style.display="none";
-openPop.addEventListener('click', function(){
-  popup.style.display="block";
-  popupBg.style.display="block";
-});
-}
+document.getElementById('popupBg').style.display='none';
+document.getElementById('popup').style.display='none';
+document.getElementById('openPop').addEventListener('click', function(){
+   document.getElementById('popup').style.display='block';
+   document.getElementById('popupBg').style.display='block';
+})
+document.getElementById('closePop').addEventListener('click', function(){
+   document.getElementById('popup').style.display='none';
+   document.getElementById('popupBg').style.display='none';
+})
