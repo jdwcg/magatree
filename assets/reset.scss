@@ -223,11 +223,12 @@ header {
     background: #eee;
     border-radius: 8px;
     &[type="button"] {
-      background: #E76666;
+      background: #E76666; cursor: pointer;
       color: #fff; font-weight: 500;
     }
   }
   button {
+    cursor: pointer;
     border: 1px solid #eee; background: none;
   }
   hr {
