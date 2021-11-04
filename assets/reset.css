@@ -67,7 +67,7 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .bottomNav > div.btns > a span { font-size: 10px; text-align: center; }
 .bottomNav > div.btns > a span > i { font-size: 1.5rem; }
 
-.formComponent { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 1rem; background: #FFF; }
+.formComponent { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 70%; padding: 1rem; background: #FFF; }
 .formComponent h1 { text-align: center; padding: 4rem 0; font-weight: 300; color: #e76666; }
 .formComponent h1 > span { font-weight: 700; color: #e76666; }
 .formComponent input, .formComponent button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }
