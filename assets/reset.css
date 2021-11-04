@@ -67,4 +67,14 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .bottomNav > div.btns > a span { font-size: 10px; text-align: center; }
 .bottomNav > div.btns > a span > i { font-size: 1.5rem; }
 
+.formComponent { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 1rem; background: #FFF; }
+.formComponent h1 { text-align: center; padding: 4rem 0; font-weight: 300; color: #e76666; }
+.formComponent h1 > span { font-weight: 700; color: #e76666; }
+.formComponent input, .formComponent button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }
+.formComponent input[type="button"], .formComponent button[type="button"] { background: #E76666; color: #fff; font-weight: 500; }
+.formComponent button { border: 1px solid #eee; background: none; }
+.formComponent hr { border: none; background: #eee; height: 1px; margin: 1rem 0; }
+.formComponent > a { text-align: center; padding: 1rem 0; text-decoration: underline; font-size: 14px; }
+.formComponent > p { color: #e76666; font-size: 12px; padding: 1rem 0; margin-top: 2rem; }
+
 /*# sourceMappingURL=reset.css.map */

@@ -202,3 +202,47 @@ header {
     }
   }
 }
+
+// 인풋버튼 컴포넌트
+.formComponent {
+  position: absolute;
+  left: 50%;top: 50%; transform: translate(-50%, -50%);
+  display: flex; flex-direction: column;
+  padding: 1rem;
+  background: #FFF;
+  h1 {
+    text-align: center;padding: 4rem 0; font-weight: 300;
+    color: #e76666;
+    > span {font-weight: 700;color: #e76666;}
+  }
+  input, button {
+    width: 100%;
+    padding: 13px;
+    margin: 4px 0;
+    border: none;
+    background: #eee;
+    border-radius: 8px;
+    &[type="button"] {
+      background: #E76666;
+      color: #fff; font-weight: 500;
+    }
+  }
+  button {
+    border: 1px solid #eee; background: none;
+  }
+  hr {
+    border:none;
+    background: #eee;
+    height: 1px;
+    margin: 1rem 0;
+  }
+  > a {
+    text-align: center;
+    padding: 1rem 0;
+    text-decoration: underline; font-size: 14px;
+  }
+  > p {
+    color: #e76666;font-size: 12px;
+    padding: 1rem 0; margin-top: 2rem;
+  }
+}
