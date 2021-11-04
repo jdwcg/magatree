@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 *, body { font-family: 'Noto Sans KR', sans-serif; margin: 0; padding: 0; list-style: none; -webkit-box-sizing: border-box; box-sizing: border-box; text-decoration: none; color: #222; }
 
@@ -78,7 +78,7 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .formComponent > a { text-align: center; padding: 1rem 0; text-decoration: underline; font-size: 14px; }
 .formComponent > p { color: #e76666; font-size: 12px; padding: 1rem 0; margin-top: 2rem; }
 
-.closeXbtn { color: #111 !important; }
-.closeXbtn > i { position: relative; z-index: 9; color: #111 !important; }
+.closeXbtn { position: relative; display: block; }
+.closeXbtn > i { position: absolute; z-index: 9; right: 10px; top: 5px; color: #666 !important; font-size: 2rem; }
 
 /*# sourceMappingURL=reset.css.map */
