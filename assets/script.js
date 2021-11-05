@@ -14,15 +14,23 @@ document.getElementById('closePop').addEventListener('click', function(){
 // 찜하기
 $(function(){
   $('.bi-heart-fill').css("display", "none");
+
   $('.bi-heart').click(function(){
   	if($(".bi-heart-fill").css("display") == "none"){
   		$(".bi-heart-fill").css("display", "inline-block");
   		$(".bi-heart").css("display", "none");
-  	}else {
-  		$(".bi-heart").css("display", "none");
-      // $('.bi-heart').show();
   	}
   })
+
+  $('.bi-heart-fill').click(function(){
+  	if($(".bi-heart-fill").css("display") == "inline-block"){
+  		$(".bi-heart-fill").css("display", "none");
+  		$(".bi-heart").css("display", "inline-block");
+  	}
+  })
+
+
+
 
 
 
