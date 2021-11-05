@@ -9,6 +9,23 @@ section {
   margin:0 !important; //리셋
   padding: .6rem 0;
   ul {
-    background: #fff !important;
+    background: #fff !important; //리셋
   }
+}
+nav {
+  display: flex;z-index: 10;
+  background: #fff;
+  width: 768px;
+  @media(max-width: 768px) {width: 100%;}
+  justify-content: space-between;
+  position: fixed; left: 50%; transform: translate(-50%);
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  font-size: 24px;
+  padding: .4rem 1rem;
+  span {font-size: 18px;}
+}
+.navHeight {
+  position: relative; z-index: 9;
+  top: 0; height: 48px;
 }

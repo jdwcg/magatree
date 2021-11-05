@@ -6,4 +6,10 @@ section { padding: 1rem 1em; }
 .thumbnail-width { margin: 0 !important; padding: .6rem 0; }
 .thumbnail-width ul { background: #fff !important; }
 
+nav { display: -webkit-box; display: -ms-flexbox; display: flex; z-index: 10; background: #fff; width: 768px; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; position: fixed; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-bottom: 1px solid #eee; font-size: 24px; padding: .4rem 1rem; }
+@media (max-width: 768px) { nav { width: 100%; } }
+nav span { font-size: 18px; }
+
+.navHeight { position: relative; z-index: 9; top: 0; height: 48px; }
+
 /*# sourceMappingURL=store.css.map */
