@@ -271,11 +271,8 @@ header {
          flex: .3;border: 2px solid #eee; background: transparent; color: #666;
       }
     }
-
-
   }
 }
-
 .closeXbtn {
   position: relative;
   display: block;
@@ -284,6 +281,7 @@ header {
     color: #666 !important; font-size: 1.6rem;
   }
 }
+// 팝업컴포넌트
 .popupBg {
   position: fixed;
   left: 0; top: 0;
@@ -299,6 +297,45 @@ header {
   height: 95%;
   background: #fff;
   padding: 1rem;
+  @media(min-width: 768px) {
+    width: 700px;
+  }
+  span.popX {
+    display: flex; justify-content: flex-end; font-size: 20px;
+  }
+}
+
+// 팝업스타일링 - 매장찾기
+.popup {
+  h2 {}
+  h3 {font-weight: 500; display: inline-block; padding: 0 .425em;}
+  hr {
+    border:none; background: #eee; height: 1px;
+    margin: 1rem 0;
+  }
+  .thumbnail-content {
+    display: flex;
+    .imgWrap {flex:.4} ul {flex: 1; word-break: keep-all;}
+    .imgWrap {
+      background: #aaa; border-radius: 4px;
+      display: flex; justify-content: center; align-items: center;
+    }
+    ul {
+      padding: 0 1rem;
+      li:last-child {
+        font-size: 14px; padding: .5rem 0;
+        a {
+          i {
+            padding-right: .5rem;
+            &:hover {color: tomato;}
+          }
+          .bi-heart, .bi-heart-fill {
+            color: tomato;
+          }
+        }
+      }
+    }
+  }
 }
 
 // 버튼컴포넌트

@@ -16,10 +16,10 @@
     <input type="text" placeholder="이메일(로그인ID)">
     <input type="password" placeholder="비밀번호(6~12자 영문,숫자 조합)">
     <input type="password" placeholder="비밀번호 확인(6~12자 영문,숫자 조합)">
-    <input type="password" placeholder="별명을 입력해 주세요.">
-    <input type="password" placeholder="연락처를 입력해 주세요.">
+    <input type="text" placeholder="별명을 입력해 주세요.">
+    <input type="text" placeholder="연락처를 입력해 주세요.">
     <div class="inputInnerBtn">
-      <input type="password" placeholder="대표매장을 선택해주세요.">
+      <input type="text" placeholder="대표매장을 선택해주세요.">
       <input  type="button" id="openPop" value="선택">
     </div>
     <input type="submit" value="가입하기" >
@@ -33,27 +33,29 @@
 </div>
 
 <div class="popup" id="popup">
-  <i class="bi bi-x-lg" id="closePop"></i>
-  <h1>매장찾기</h1>
+  <span class="popX"><i class="bi bi-x-lg" id="closePop"></i></span>
+  <h2>매장찾기</h2>
   <hr>
   <input type="checkbox" id="heading">
-  <label for="heading">가온힐조헤어 가산점</label>
+  <label for="heading"><h3>가온힐조헤어 가산점</h3></label>
   <hr>
-  <article>
-    <img src="" alt="image">
+  <article class="thumbnail-content">
+    <div class="imgWrap"><img src="" alt="image"></div>
     <ul>
       <li>지역: 서울시 금천구</li>
       <li>운영시간 : 09:00 ~ 20:00</li>
       <li>휴무일 : 매주 수요일</li>
-      <li><i class="bi bi-heart"></i>관심<span>122</span></li>
+      <li><a href="#"><i class="bi bi-heart"></i><i class="bi bi-heart-fill"></i>관심<span>122</span></a></li>
     </ul>
   </article>
+  <hr>
   <article>
     <input type="button" name="" value="확인">
   </article>
 </div>
 <div class="popupBg" id="popupBg"></div>
-<script src="assets/script.js"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assets/script.js"></script>
 </body>
 </html>
