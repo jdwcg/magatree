@@ -324,15 +324,17 @@ header {
       padding: 0 1rem;
       li:last-child {
         font-size: 14px; padding: .5rem 0;
-        a {
+        span {
+          padding: 0 .4em;
+        }
           i {
-            padding-right: .5rem;
+            cursor: pointer;
+            font-style: normal;
             &:hover {color: tomato;}
           }
           .bi-heart, .bi-heart-fill {
             color: tomato;
           }
-        }
       }
     }
   }

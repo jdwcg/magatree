@@ -103,9 +103,10 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .popup .thumbnail-content .imgWrap { background: #aaa; border-radius: 4px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .popup .thumbnail-content ul { padding: 0 1rem; }
 .popup .thumbnail-content ul li:last-child { font-size: 14px; padding: .5rem 0; }
-.popup .thumbnail-content ul li:last-child a i { padding-right: .5rem; }
-.popup .thumbnail-content ul li:last-child a i:hover { color: tomato; }
-.popup .thumbnail-content ul li:last-child a .bi-heart, .popup .thumbnail-content ul li:last-child a .bi-heart-fill { color: tomato; }
+.popup .thumbnail-content ul li:last-child span { padding: 0 .4em; }
+.popup .thumbnail-content ul li:last-child i { cursor: pointer; font-style: normal; }
+.popup .thumbnail-content ul li:last-child i:hover { color: tomato; }
+.popup .thumbnail-content ul li:last-child .bi-heart, .popup .thumbnail-content ul li:last-child .bi-heart-fill { color: tomato; }
 
 input, button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }
 input[type="button"], input[type="submit"], button[type="button"], button[type="submit"] { background: #E76666; cursor: pointer; color: #fff; font-weight: 500; font-size: 16px; }
