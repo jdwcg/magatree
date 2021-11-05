@@ -104,7 +104,7 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .popBtns > #popCancel { background: #ddd; color: #aaa; }
 
 .store { position: relative; }
-.store label { margin-left: 4px; border: 2px solid #eee; }
+.store label { margin-left: 4px; border: 2px solid #eee; border-radius: 14px; padding: 0 .3em; }
 .store input { position: absolute; left: -999px; }
 .store input:checked + label { background: #eee; }
 .store > h3 { position: absolute; right: 0; }
