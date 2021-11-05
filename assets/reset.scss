@@ -340,6 +340,12 @@ header {
   }
 }
 
+.store {
+  input:checked + label {
+    background: #eee;
+    border-radius: 4px;
+  }
+}
 // 버튼컴포넌트
 input, button {
   width: 100%;
