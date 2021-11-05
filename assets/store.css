@@ -1,4 +1,9 @@
 @import url("reset.css");
 .popup { overflow-y: hidden; }
 
+section { padding: 1rem 1em; }
+
+.thumbnail-width { margin: 0 !important; padding: .6rem 0; }
+.thumbnail-width ul { background: #fff !important; }
+
 /*# sourceMappingURL=store.css.map */

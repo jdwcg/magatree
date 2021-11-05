@@ -2,3 +2,13 @@
 .popup {
   overflow-y: hidden;
 }
+section {
+  padding: 1rem 1em;
+}
+.thumbnail-width {
+  margin:0 !important; //리셋
+  padding: .6rem 0;
+  ul {
+    background: #fff !important;
+  }
+}
