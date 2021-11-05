@@ -16,10 +16,9 @@ $(function(){
   $('.bi-heart-fill').css("display", "none");
   $('.bi-heart').click(function(){
   	if($(".bi-heart-fill").css("display") == "none"){
-  		$(".bi-heart-fill").css("display", "block");
+  		$(".bi-heart-fill").css("display", "inline-block");
   		$(".bi-heart").css("display", "none");
-      // $('.bi-heart').hide();
-  	}else{
+  	}else {
   		$(".bi-heart").css("display", "none");
       // $('.bi-heart').show();
   	}
