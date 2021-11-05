@@ -3,6 +3,8 @@
 
 section { padding: 1rem 1em; }
 
+.store:last-child { margin-bottom: 6rem; }
+
 .thumbnail-width { margin: 0 !important; padding: .6rem 0; }
 .thumbnail-width ul { background: #fff !important; }
 
