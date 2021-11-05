@@ -43,5 +43,5 @@ function resetCounter() {
 }
 
 function updateDisplay(val) {
-    document.getElementById("counter-label").innerHTML = val;
+    document.querySelector(".counter-label").innerHTML = val;
 }
