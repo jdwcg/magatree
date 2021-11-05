@@ -86,9 +86,6 @@ header {
          justify-content: center;
          align-items: center;
          overflow: hidden;
-         img {
-            // width: 100%; height: auto;
-         }
       }
       div:last-child {
          padding: 1rem 1em;
@@ -100,6 +97,9 @@ header {
             height: 42px;
          }
          >h5 {color: tomato;}
+         > span {
+            text-decoration: line-through;
+         }
       }
    }
 }
