@@ -1,20 +1,3 @@
-document.getElementById('popup').style.display='none';
-document.getElementById('popupBg').style.display='none';
-document.getElementById('openPop').addEventListener('click', function(){
-   if(document.getElementById('popup').style.display==='none') {
-      document.getElementById('popup').style.display='block';
-      document.getElementById('popupBg').style.display='block';
-   }
-})
-document.getElementById('closePop').addEventListener('click', function(){
-   document.getElementById('popup').style.display='none';
-   document.getElementById('popupBg').style.display='none';
-})
-document.getElementById('popCancel').addEventListener('click', function(){
-   document.getElementById('popup').style.display='none';
-   document.getElementById('popupBg').style.display='none';
-})
-
 // 찜하기
 $(function(){
   $('.bi-heart-fill').css("display", "none");
@@ -43,3 +26,21 @@ function resetCounter() {
 function updateDisplay(val) {
     document.querySelector(".counter-label").innerHTML = val;
 }
+
+
+var close = document.querySelector('.bi-x-lg')
+var seachBtn = document.querySelector('.bi-search')
+var searchsection = document.querySelector('.searchsection')
+close.style.display="none";
+seachBtn.addEventListener('click', function(e){
+   e.preventDefault();
+      searchsection.classList.toggle("slideDown");
+      if (seachBtn.style.display == "none") {
+         close.style.display = "none";
+         seachBtn.style.display = "block";
+      }
+      if (close.style.display == "none") {
+         seachBtn.style.display = "none";
+         close.style.display = "block";
+      }
+})
