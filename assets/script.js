@@ -1,3 +1,4 @@
+// 팝업여닫기
 document.getElementById('popup').style.display='none';
 document.getElementById('popupBg').style.display='none';
 document.getElementById('openPop').addEventListener('click', function(){
@@ -32,20 +33,16 @@ $(function(){
   		$(".bi-heart").css("display", "inline-block");
   	}
   })
-
 })
 
 var counterVal = 0;
-
 function incrementClick() {
     updateDisplay(++counterVal);
 }
-
 function resetCounter() {
     counterVal = 0;
     updateDisplay(counterVal);
 }
-
 function updateDisplay(val) {
     document.querySelector(".counter-label").innerHTML = val;
 }
