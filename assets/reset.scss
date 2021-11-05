@@ -363,7 +363,8 @@ header {
   position: absolute; left: -999px;
   }
   input:checked + label {
-    background: #eee; 
+
+    background: #eee;
   }
   > h3 {
     position: absolute; right: 0;
