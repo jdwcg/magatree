@@ -356,16 +356,20 @@ header {
 .store {
   position: relative;
   label {
-    border: 2px solid #eee; border-radius: 3px;
+    margin-left: 4px;
+    border: 2px solid #eee;
   }
   input {
   position: absolute; left: -999px;
   }
   input:checked + label {
-    background: #eee;
-    border-radius: 4px;
+    background: #eee; 
   }
+  > h3 {
+    position: absolute; right: 0;
 }
+  }
+
 // 버튼컴포넌트
 input, button {
   width: 100%;

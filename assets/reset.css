@@ -113,9 +113,10 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .popBtns > #popCancel { background: #ddd; color: #aaa; }
 
 .store { position: relative; }
-.store label { border: 2px solid #eee; border-radius: 3px; }
+.store label { margin-left: 4px; border: 2px solid #eee; }
 .store input { position: absolute; left: -999px; }
-.store input:checked + label { background: #eee; border-radius: 4px; }
+.store input:checked + label { background: #eee; }
+.store > h3 { position: absolute; right: 0; }
 
 input, button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }
 input[type="button"], input[type="submit"], button[type="button"], button[type="submit"] { background: #E76666; cursor: pointer; color: #fff; font-weight: 500; font-size: 16px; }
