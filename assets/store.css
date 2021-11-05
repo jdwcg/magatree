@@ -15,7 +15,7 @@ nav span { font-size: 18px; }
 
 .navHeight { position: relative; z-index: 9; top: 0; height: 48px; }
 
-div.searchsection { position: fixed; z-index: 5; width: 100%; top: -246px; -webkit-transition: -webkit-transform .4s ease-in-out; transition: -webkit-transform .4s ease-in-out; transition: transform .4s ease-in-out; transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out; background: #fff; padding: 1rem; }
+div.searchsection { position: fixed; z-index: 5; width: 100%; top: -246px; -webkit-transition: -webkit-transform .6s ease-in-out; transition: -webkit-transform .6s ease-in-out; transition: transform .6s ease-in-out; transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out; background: #fff; padding: 1rem; }
 div.searchsection div.searchBtn { max-width: 768px; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
 div.searchsection div.searchBtn input:not(:last-child) { margin-right: 10px; }
 div.searchsection div.searchBtn input[type="text"] { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
