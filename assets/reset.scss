@@ -354,6 +354,13 @@ header {
   }
 }
 .store {
+  position: relative;
+  label {
+    border: 2px solid #eee; border-radius: 3px;
+  }
+  input {
+  position: absolute; left: -999px;
+  }
   input:checked + label {
     background: #eee;
     border-radius: 4px;

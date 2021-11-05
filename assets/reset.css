@@ -112,6 +112,9 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .popBtns input:not(:last-child) { margin-right: 10px; }
 .popBtns > #popCancel { background: #ddd; color: #aaa; }
 
+.store { position: relative; }
+.store label { border: 2px solid #eee; border-radius: 3px; }
+.store input { position: absolute; left: -999px; }
 .store input:checked + label { background: #eee; border-radius: 4px; }
 
 input, button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }
