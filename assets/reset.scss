@@ -314,29 +314,30 @@ header {
     border:none; background: #eee; height: 1px;
     margin: 1rem 0;
   }
-  .thumbnail-content {
-    display: flex;
-    .imgWrap {flex:.4} ul {flex: 1; word-break: keep-all;}
-    .imgWrap {
-      background: #aaa; border-radius: 4px;
-      display: flex; justify-content: center; align-items: center;
-    }
-    ul {
-      padding: 0 1rem;
-      li:last-child {
-        font-size: 14px; padding: .5rem 0;
-        span {
-          padding: 0 .4em;
-        }
-          i {
-            cursor: pointer;
-            font-style: normal;
-            &:hover {color: tomato;}
-          }
-          .bi-heart, .bi-heart-fill {
-            color: tomato;
-          }
+}
+// 썸네일 가로포맷 컴포넌트
+.thumbnail-width {
+  display: flex;
+  .imgWrap {flex:.8} ul {flex: 1; word-break: keep-all;}
+  .imgWrap {
+    background: #aaa; border-radius: 4px;
+    display: flex; justify-content: center; align-items: center;
+  }
+  ul {
+    padding: 0 1rem;
+    li:last-child {
+      font-size: 14px; padding: .5rem 0;
+      span {
+        padding: 0 .4em;
       }
+        i {
+          cursor: pointer;
+          font-style: normal;
+          &:hover {color: tomato;}
+        }
+        .bi-heart, .bi-heart-fill {
+          color: tomato;
+        }
     }
   }
 }
