@@ -108,6 +108,10 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .popup .thumbnail-content ul li:last-child i:hover { color: tomato; }
 .popup .thumbnail-content ul li:last-child .bi-heart, .popup .thumbnail-content ul li:last-child .bi-heart-fill { color: tomato; }
 
+.popBtns { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
+.popBtns input:not(:last-child) { margin-right: 10px; }
+.popBtns > #popCancel { background: #ddd; color: #aaa; }
+
 .store input:checked + label { background: #eee; border-radius: 4px; }
 
 input, button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }

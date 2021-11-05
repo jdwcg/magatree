@@ -1,5 +1,5 @@
-document.getElementById('popup').style.display='none';
-document.getElementById('popupBg').style.display='none';
+// document.getElementById('popup').style.display='none';
+// document.getElementById('popupBg').style.display='none';
 document.getElementById('openPop').addEventListener('click', function(){
    if(document.getElementById('popup').style.display==='none') {
       document.getElementById('popup').style.display='block';
@@ -7,6 +7,10 @@ document.getElementById('openPop').addEventListener('click', function(){
    }
 })
 document.getElementById('closePop').addEventListener('click', function(){
+   document.getElementById('popup').style.display='none';
+   document.getElementById('popupBg').style.display='none';
+})
+document.getElementById('popCancel').addEventListener('click', function(){
    document.getElementById('popup').style.display='none';
    document.getElementById('popupBg').style.display='none';
 })

@@ -340,7 +340,19 @@ header {
     }
   }
 }
-// #heading {display: inl}
+.popBtns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  input {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+  > #popCancel {
+    background: #ddd; color: #aaa;
+  }
+}
 .store {
   input:checked + label {
     background: #eee;
