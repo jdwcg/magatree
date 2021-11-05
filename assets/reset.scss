@@ -308,39 +308,10 @@ header {
 
 // 팝업스타일링 - 매장찾기
 .popup {
-  h2 {}
+  h2 {padding: 2rem 0;}
   h3 {font-weight: 500; display: inline-block; padding: 0 .425em;}
-  hr {
-    border:none; background: #eee; height: 1px;
-    margin: 1rem 0;
-  }
-} 
-// 썸네일 가로포맷 컴포넌트
-.thumbnail-width {
-  display: flex;
-  .imgWrap {flex:.8} ul {flex: 1; word-break: keep-all;}
-  .imgWrap {
-    background: #aaa; border-radius: 4px;
-    display: flex; justify-content: center; align-items: center;
-  }
-  ul {
-    padding: 0 1rem;
-    li:last-child {
-      font-size: 14px; padding: .5rem 0;
-      span {
-        padding: 0 .4em;
-      }
-        i {
-          cursor: pointer;
-          font-style: normal;
-          &:hover {color: tomato;}
-        }
-        .bi-heart, .bi-heart-fill {
-          color: tomato;
-        }
-    }
-  }
 }
+
 .popBtns {
   display: flex;
   justify-content: space-between;
@@ -356,20 +327,51 @@ header {
 }
 .store {
   position: relative;
-  label {
-    margin-left: 4px;
-    border: 2px solid #eee;
-  }
-  input {
-  position: absolute; left: -999px;
-  }
-  input:checked + label {
+    label {
+      margin-left: 4px;
+      border: 2px solid #eee;
+    }
+    input {
+    position: absolute; left: -999px;
+    }
+    input:checked + label {
 
-    background: #eee;
-  }
-  > h3 {
-    position: absolute; right: 0;
-}
+      background: #eee;
+    }
+    > h3 {
+      position: absolute; right: 0;
+    }
+    // 썸네일 가로포맷 컴포넌트
+    .thumbnail-width {
+      display: flex;
+      margin: 1rem 0 2rem;
+      .imgWrap {
+        flex:.8;
+        background: #aaa; border-radius: 14px 0 0 14px;
+        display: flex; justify-content: center; align-items: center;
+      }
+      ul {
+        background: #eee;
+        border-radius: 0 14px 14px 0;
+        flex: 1; word-break: keep-all;
+        position: relative;
+        padding: 1rem 1rem;
+        li:last-child {
+          font-size: 14px; padding: .5rem 0;
+          span {
+            padding: 0 .4em;
+          }
+            i {
+              cursor: pointer;
+              font-style: normal;
+              &:hover {color: tomato;}
+            }
+            .bi-heart, .bi-heart-fill {
+              color: tomato;
+            }
+        }
+      }
+    }
   }
 
 // 버튼컴포넌트

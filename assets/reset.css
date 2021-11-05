@@ -96,19 +96,8 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 @media (min-width: 768px) { .popup { width: 700px; } }
 .popup span.popX { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; font-size: 20px; }
 
+.popup h2 { padding: 2rem 0; }
 .popup h3 { font-weight: 500; display: inline-block; padding: 0 .425em; }
-.popup hr { border: none; background: #eee; height: 1px; margin: 1rem 0; }
-
-.thumbnail-width { display: -webkit-box; display: -ms-flexbox; display: flex; }
-.thumbnail-width .imgWrap { -webkit-box-flex: .8; -ms-flex: .8; flex: .8; }
-.thumbnail-width ul { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; word-break: keep-all; }
-.thumbnail-width .imgWrap { background: #aaa; border-radius: 4px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-.thumbnail-width ul { padding: 0 1rem; }
-.thumbnail-width ul li:last-child { font-size: 14px; padding: .5rem 0; }
-.thumbnail-width ul li:last-child span { padding: 0 .4em; }
-.thumbnail-width ul li:last-child i { cursor: pointer; font-style: normal; }
-.thumbnail-width ul li:last-child i:hover { color: tomato; }
-.thumbnail-width ul li:last-child .bi-heart, .thumbnail-width ul li:last-child .bi-heart-fill { color: tomato; }
 
 .popBtns { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
 .popBtns input:not(:last-child) { margin-right: 10px; }
@@ -119,6 +108,14 @@ header { height: 210px; display: -webkit-box; display: -ms-flexbox; display: fle
 .store input { position: absolute; left: -999px; }
 .store input:checked + label { background: #eee; }
 .store > h3 { position: absolute; right: 0; }
+.store .thumbnail-width { display: -webkit-box; display: -ms-flexbox; display: flex; margin: 1rem 0 2rem; }
+.store .thumbnail-width .imgWrap { -webkit-box-flex: .8; -ms-flex: .8; flex: .8; background: #aaa; border-radius: 14px 0 0 14px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.store .thumbnail-width ul { background: #eee; border-radius: 0 14px 14px 0; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; word-break: keep-all; position: relative; padding: 1rem 1rem; }
+.store .thumbnail-width ul li:last-child { font-size: 14px; padding: .5rem 0; }
+.store .thumbnail-width ul li:last-child span { padding: 0 .4em; }
+.store .thumbnail-width ul li:last-child i { cursor: pointer; font-style: normal; }
+.store .thumbnail-width ul li:last-child i:hover { color: tomato; }
+.store .thumbnail-width ul li:last-child .bi-heart, .store .thumbnail-width ul li:last-child .bi-heart-fill { color: tomato; }
 
 input, button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }
 input[type="button"], input[type="submit"], button[type="button"], button[type="submit"] { background: #E76666; cursor: pointer; color: #fff; font-weight: 500; font-size: 16px; }
