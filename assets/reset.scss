@@ -339,7 +339,7 @@ header {
     }
   }
 }
-
+// #heading {display: inl}
 .store {
   input:checked + label {
     background: #eee;
@@ -359,7 +359,7 @@ input, button {
     color: #fff; font-weight: 500;
     font-size: 16px;
   }
-  &[type="checkbox"] {
+  &[type="radio"] {
     width: auto;
   }
 }
