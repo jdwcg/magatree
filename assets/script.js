@@ -17,6 +17,7 @@ $(function(){
   $('.bi-heart').click(function(){
   	if($(".bi-heart-fill").css("display") == "none"){
   		$(".bi-heart-fill").css("display", "block");
+  		$(".bi-heart").css("display", "none");
       // $('.bi-heart').hide();
   	}else{
   		$(".bi-heart").css("display", "none");
