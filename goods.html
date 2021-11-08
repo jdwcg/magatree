@@ -3,24 +3,42 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-   <link rel="stylesheet" href="assets/reset.css">
+   <link rel="stylesheet" href="assets/goods.css">
    <title>megatree</title>
 </head>
 <body>
+  <nav>
+     <a onclick="javascript:history.back();"><i class="bi bi-chevron-left"></i></a>
+     <span>매장</span>
+     <a href="">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-x-lg"></i>
+     </a>
+  </nav>
+  <div class="searchsection">
+     <div class="searchBtn">
+        <input type="text" placeholder="검색어를 입력하세요.">
+        <input type="submit" value="검색">
+     </div>
+     <div class="keyword">
+        <h6><a href="">키워드</a></h6>
+        <h6><a href="">키워드키워드</a></h6>
+        <h6><a href="">키워드</a></h6>
+     </div>
+     <div class="searchResult">
+        <p>
+  <!-- 관련검색어 -->
+  <pre>
+  검색 시 연관검색어 elit.
+  관련검색어 노출 nihil, perspiciatis
+  nulla 관련검색어 sint voluptates,
+  provident quae 관련검색어
+  </pre>
+        </p>
+     </div>
+  </div>
+  <nav class="navHeight"></nav>
 
-<div class="container">
-   <div class="slogan">
-      <h2>헤어샵에서보는</h2>
-      <h1>디지털 매거진</h1>
-   </div>
-   <header>
-      <img src="assets/imgs/mainbg.png" alt="">
-   </header>
-   <div class="megaImg">
-      <img src="assets/imgs/megatv.svg" alt="">
-
-   </div>
-</div>
 <!-- 썸네일컴포넌트 시작 -->
 <div class="thumbnailWrap">
    <h3>인기상품 <span><a href="#">more</a></span></h3>
@@ -31,61 +49,24 @@
             <h4>[다이슨] 에어랩스타에어랩스타에어랩스타에어랩스타에어랩스타</h4>
             <h5>50,000원</h5>
             <span>50,000원</span>
+            <i  onclick="incrementClick()" class="bi bi-heart"></i>
+            <i  onclick="incrementClick()" class="bi bi-heart-fill"></i>
          </div>
       </article>
-      <article>
-         <div><img src="" alt="image"></div>
-         <div>
-            <h4>[다이슨] 에어랩스타</h4>
-            <h5>50,000원</h5>
-            <span>50,000원</span>
-         </div>
-      </article>
-   </section>
-</div>
-<!-- 썸네일컴포넌트 끝 -->
-<div class="thumbnailWrap">
-   <h3>인기 컨텐츠 <span><a href="#">more</a></span></h3>
-   <section class="thumbnail">
       <article>
          <div><img src="" alt="image"></div>
          <div>
             <h4>[다이슨] 에어랩스타에어랩스타에어랩스타에어랩스타에어랩스타</h4>
             <h5>50,000원</h5>
             <span>50,000원</span>
+            <i  onclick="incrementClick()" class="bi bi-heart"></i>
+            <i  onclick="incrementClick()" class="bi bi-heart-fill"></i>
          </div>
       </article>
-      <article>
-         <div><img src="" alt="image"></div>
-         <div>
-            <h4>[다이슨] 에어랩스타</h4>
-            <h5>50,000원</h5>
-            <span>50,000원</span>
-         </div>
-      </article>
+
    </section>
 </div>
-<!-- 쿠폰컴포넌트 시작 -->
-<div class="thumbnailWrap">
-   <h3>이벤트<span><a href="#">more</a></span></h3>
-   <section class="coupon">
-      <article>
-         <div>
-            <h6>가온힐 조헤어 가산점</h6>
-            <h2>코로나 극복 이벤트 쿠폰</h2>
-            <h5>10,000원 할인</h5>
-            <p>※ 5만원 이상 결제 시 사용가능 ※ 기간: 2021.00.00 ~ 00.00 까지</p>
-         </div>
-         <div>
-            <a href="">
-               <i class="bi bi-download"></i>
-               <h2>쿠폰 받기</h2>
-            </a>
-         </div>
-      </article>
-   </section>
-</div>
-<!-- 쿠폰컴포넌트 끝 -->
+<!-- 썸네일컴포넌트 끝 -->
 <div class="height"></div>
 <footer class="bottomNav">
   <div class="btns">
@@ -120,5 +101,6 @@
   </div>
 </footer>
 <script src="assets/js/jquery.min.js"></script>
+<script src="assets/script.js"></script>
 </body>
 </html>

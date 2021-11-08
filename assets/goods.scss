@@ -1,0 +1,13 @@
+@import url("store.css");
+.thumbnail {
+  article {
+    div {
+      &:nth-child(2) {
+        position: relative;
+        i {
+          position: absolute; right: 16px;
+        }
+      }
+    }
+  }
+}

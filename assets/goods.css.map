@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,wBAAgB;AAIlB,mCAAe,GACb,QAAQ,EAAE,QAAQ;AAClB,qCAAE,GACA,QAAQ,EAAE,QAAQ,EAAE,KAAK,EAAE,IAAI",
+"sources": ["goods.scss"],
+"names": [],
+"file": "goods.css"
+}
