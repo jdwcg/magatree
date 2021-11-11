@@ -140,9 +140,9 @@ div.searchsection {
 .slick-dotted.slick-slider {
   // margin: 0;
 }
-input[type="button"], input[type="submit"], button[type="button"], button[type="submit"] {
-  color: transparent;
-  background: transparent;
+ .slick-arrow {
+  color: transparent !important;
+  background: transparent !important;
 }
 .thumbnail article div:last-child {
   padding: 0;

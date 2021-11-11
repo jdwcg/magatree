@@ -40,7 +40,7 @@ div.searchsection div.searchResult { max-width: 768px; margin: 0 auto; padding: 
 
 .thumbnail article div:first-child { height: auto; background: #fff; }
 
-input[type="button"], input[type="submit"], button[type="button"], button[type="submit"] { color: transparent; background: transparent; }
+.slick-arrow { color: transparent !important; background: transparent !important; }
 
 .thumbnail article div:last-child { padding: 0; }
 
