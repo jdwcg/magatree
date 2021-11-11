@@ -2,19 +2,19 @@
 $(function(){
   $('.bi-heart-fill').css("display", "none");
 
-  $('.bi-heart').click(function(){
-  	if($(".bi-heart-fill").css("display") == "none"){
-  		$(".bi-heart-fill").css("display", "inline-block");
-  		$(".bi-heart").css("display", "none");
-  	}
+  $('.mark').click(function(){
+    if($(".bi-heart-fill").css("display") == "none"){
+      $(this).children('.bi-heart').hide();
+      $(this).children('.bi-heart-fill').show();
+    }else{
+      $(this).children('.bi-heart').show();
+      $(this).children('.bi-heart-fill').hide();
+    }
   })
-  $('.bi-heart-fill').click(function(){
-  	if($(".bi-heart-fill").css("display") == "inline-block"){
-  		$(".bi-heart-fill").css("display", "none");
-  		$(".bi-heart").css("display", "inline-block");
-  	}
-  })
+
 })
+
+// 카운트
 // var counterVal = 0;
 // function incrementClick() {
 //     updateDisplay(++counterVal);
