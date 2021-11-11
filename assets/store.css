@@ -44,6 +44,8 @@ div.searchsection div.searchResult { max-width: 768px; margin: 0 auto; padding: 
 
 .thumbnail article div:last-child { padding: 0; }
 
+.thumbnail article div:last-child { border-radius: 0; }
+
 .slider { width: 100%; padding: 0; background: #eee; border-radius: 0; }
 
 .slick-slide { height: 100%; }

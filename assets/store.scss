@@ -147,7 +147,9 @@ div.searchsection {
 .thumbnail article div:last-child {
   padding: 0;
 }
-
+.thumbnail article div:last-child {
+  border-radius: 0;
+}
 
 // 슬라이더
 .slider {
