@@ -15,18 +15,17 @@ $(function(){
   	}
   })
 })
-var counterVal = 0;
-function incrementClick() {
-    updateDisplay(++counterVal);
-}
-function resetCounter() {
-    counterVal = 0;
-    updateDisplay(counterVal);
-}
-function updateDisplay(val) {
-    document.querySelector(".counter-label").innerHTML = val;
-}
-
+// var counterVal = 0;
+// function incrementClick() {
+//     updateDisplay(++counterVal);
+// }
+// function resetCounter() {
+//     counterVal = 0;
+//     updateDisplay(counterVal);
+// }
+// function updateDisplay(val) {
+//     document.querySelector(".counter-label").innerHTML = val;
+// }
 
 var close = document.querySelector('.bi-x-lg')
 var seachBtn = document.querySelector('.bi-search')

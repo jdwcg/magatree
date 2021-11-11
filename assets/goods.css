@@ -1,5 +1,5 @@
 @import url("store.css");
 .thumbnail article div:nth-child(2) { position: relative; }
-.thumbnail article div:nth-child(2) i { position: absolute; right: 16px; }
+.thumbnail article div:nth-child(2) i { color: tomato; position: absolute; right: 16px; }
 
 /*# sourceMappingURL=goods.css.map */
