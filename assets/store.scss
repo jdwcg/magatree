@@ -84,3 +84,115 @@ div.searchsection {
 .mark {
   // border: 1px solid red;
 }
+
+// 매장 상세
+.thumbnail {
+  article {
+    div {
+      &:nth-child(2) {
+        position: relative;
+        i {
+          color: tomato;
+          position: absolute; right: 16px;
+        }
+      }
+    }
+  }
+}
+.btnWrap-storeDetail {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1em !important;
+  button {
+    cursor: pointer;
+    i {
+      position: relative !important;
+      left: -4px; color: #222 !important;
+    }
+  }
+  :not(:last-child) {
+    margin-right: .6rem;
+  }
+}
+
+.storeView {
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: flex-start!important;
+  background: #fff !important;
+  padding: 1rem ;
+  height: auto !important;
+  ul {
+    word-break: keep-all;
+    font-size: 14px !important;
+    padding: 0 1rem 0 0 !important;
+    &:first-child {
+      font-weight: 600 !important;
+    }
+  }
+}
+
+// 리셋
+.thumbnail article div:first-child {
+  height: auto; background: #fff;
+}
+
+.slick-dotted.slick-slider {
+  // margin: 0;
+}
+input[type="button"], input[type="submit"], button[type="button"], button[type="submit"] {
+  color: transparent;
+  background: transparent;
+}
+.thumbnail article div:last-child {
+  padding: 0;
+}
+
+
+// 슬라이더
+.slider {
+    width: 100%;
+    // margin: 100px auto;
+    padding: 0;
+    background: #eee;
+    // height: 400px;
+    border-radius: 0;
+}
+.slick-list {
+  // overflow: visible;
+}
+
+.slick-slide {
+  // margin: 0px 20px;
+  height: 100%;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  position: absolute;
+}
+.slick-prev:before {
+  left: 40px;
+}
+.slick-next:before {
+  right: 40px;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
