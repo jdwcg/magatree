@@ -19,10 +19,9 @@ h6 { font-size: 14px; font-weight: 500; }
 
 .thumbnailWrap, .container, header, section, .main, footer { background: #f5f5f5; max-width: 768px; margin: 0 auto; }
 
-.slogan { position: absolute; z-index: 5; left: 50%; top: 50px; -webkit-transform: translate(-50%, 70%); transform: translate(-50%, 70%); }
-@media (max-width: 360px) { .slogan { top: 10px; } }
+.slogan { position: absolute; z-index: 5; left: 50%; top: 10px; -webkit-transform: translate(-50%, 70%); transform: translate(-50%, 70%); }
 .slogan h2, .slogan h1 { font-family: 'GmarketSansMedium'; color: #fff; text-align: center; }
-@media (min-width: 480px) { .slogan h1 { font-size: 28px; }
+@media (min-width: 360px) { .slogan h1 { font-size: 28px; }
   .slogan h2 { font-size: 25px; } }
 
 .megaImg { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; top: -48px; }
