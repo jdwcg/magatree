@@ -128,12 +128,14 @@ header {
    padding: 0 1.45em 1rem;
      @media(max-width:300px) {padding: 0 1em;}
    > article {
+
       display: flex;
       justify-content: space-between;
       padding: .4rem 0;
       > div {
         @media(max-width:300px) {padding: 0;}
          &:nth-child(1) {
+           background: #f8e3c9 !important;
             &:after {
                content:'';
                position: absolute;
@@ -158,6 +160,7 @@ header {
             }
          }
          &:nth-child(2) {
+           background: #f4d9ba !important;
             position: relative;
             &:before {
                content:'';
@@ -179,7 +182,7 @@ header {
                flex-direction: column;
                justify-content: center;
                align-items: center;
-               > i, h2 {color: tomato;}
+               > i, h2 {color: #d22518;}
                > i {font-size: 2.5rem;}
                >h2 {font-size: 1rem; padding: 10px;word-break: keep-all;text-align: center;}
             }
