@@ -21,8 +21,8 @@ h6 { font-size: 14px; font-weight: 500; }
 
 .slogan { position: absolute; z-index: 5; left: 50%; top: 10px; -webkit-transform: translate(-50%, 70%); transform: translate(-50%, 70%); }
 .slogan h2, .slogan h1 { font-family: 'GmarketSansMedium'; color: #fff; text-align: center; }
-@media (min-width: 360px) { .slogan h1 { font-size: 28px; }
-  .slogan h2 { font-size: 25px; } }
+@media (min-width: 360px) { .slogan h1 { font-size: 1.75rem; }
+  .slogan h2 { font-size: 1.563rem; } }
 
 .megaImg { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; top: -48px; }
 
