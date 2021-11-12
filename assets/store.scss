@@ -39,8 +39,8 @@ section {
 nav {
   display: flex;z-index: 10;
   background: #fff;
-  width: 768px;
-  @media(max-width: 768px) {width: 100%;}
+  width: 640px;
+  @media(max-width: 640px) {width: 100%;}
   justify-content: space-between;
   position: fixed; left: 50%; transform: translate(-50%);
   align-items: center;
@@ -63,7 +63,7 @@ div.searchsection {
    background: #fff;
    padding:1rem;
    div.searchBtn {
-      max-width: 768px;
+      max-width: 640px;
       margin:0 auto;
       display: flex;
       input {
@@ -75,7 +75,7 @@ div.searchsection {
       input[type="submit"] {flex: .3;}
    }
    div.keyword {
-      max-width: 768px;
+      max-width: 640px;
       margin:0 auto;
       display: flex;
       justify-content: flex-start;
@@ -86,7 +86,7 @@ div.searchsection {
       }
    }
    div.searchResult {
-      max-width: 768px;
+      max-width: 640px;
       margin:0 auto;
       padding: 1rem 0;
    }
