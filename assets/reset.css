@@ -1,6 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-@font-face { font-family: 'GmarketSansMedium'; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff"); font-weight: normal; font-style: normal; }
 *, body { font-family: 'Noto Sans KR', sans-serif; margin: 0; padding: 0; list-style: none; -webkit-box-sizing: border-box; box-sizing: border-box; text-decoration: none; color: #222; }
 
 body { background: #fff; }
@@ -20,11 +19,12 @@ h6 { font-size: 14px; font-weight: 500; }
 .thumbnailWrap, .container, header, section, .main, footer { background: #f5f5f5; max-width: 768px; margin: 0 auto; }
 
 .slogan { position: absolute; z-index: 5; left: 50%; top: 50px; -webkit-transform: translate(-50%, 70%); transform: translate(-50%, 70%); }
-.slogan h2, .slogan h1 { color: #fff; font-family: 'GmarketSansMedium'; text-align: center; }
-.slogan h1 { font-size: 28px; }
-.slogan h2 { font-size: 25px; }
+@media (max-width: 360px) { .slogan { top: 10px; } }
+.slogan h2, .slogan h1 { color: #fff; text-align: center; }
+@media (min-width: 480px) { .slogan h1 { font-size: 28px; }
+  .slogan h2 { font-size: 25px; } }
 
-.megaImg { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; top: -30px; }
+.megaImg { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; top: -48px; }
 
 header { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 @media (max-width: 360px) { header > img { width: 100%; } }
