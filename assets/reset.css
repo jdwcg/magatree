@@ -21,7 +21,7 @@ h6 { font-size: 14px; font-weight: 500; }
 
 .slogan { position: absolute; z-index: 5; left: 50%; top: 28px; -webkit-transform: translate(-50%, 70%); transform: translate(-50%, 70%); }
 .slogan h2, .slogan h1 { font-family: 'GmarketSansMedium'; color: #fff; text-align: center; }
-@media (min-width: 360px) { .slogan h1 { font-size: 1.75rem; }
+@media (min-width: 480px) { .slogan h1 { font-size: 1.75rem; }
   .slogan h2 { font-size: 1.563rem; } }
 
 .megaImg { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; top: -48px; }
@@ -41,6 +41,7 @@ header { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; 
 .thumbnail article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
 .thumbnail article:not(:last-child) { margin-right: 14px; }
 .thumbnail article div:first-child { height: 120px; background: #aaa; border-radius: 8px 8px 0 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; }
+.thumbnail article div:first-child img { width: 100%; }
 .thumbnail article div:last-child { padding: 1rem 1em; background: #fff; border-radius: 0 0 8px 8px; }
 .thumbnail article div:last-child > h4 { overflow: hidden; width: 100%; height: 42px; }
 .thumbnail article div:last-child > h5 { color: tomato; }

@@ -31,7 +31,7 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
      color: #fff;
      text-align: center;
    }
-   @media(min-width: 360px) {
+   @media(min-width: 480px) {
      h1 {font-size: 1.75rem;}
      h2 {font-size: 1.563rem;}
    }
@@ -102,6 +102,9 @@ header {
          justify-content: center;
          align-items: center;
          overflow: hidden;
+         img {
+           width: 100%;
+         }
       }
       div:last-child {
          padding: 1rem 1em;
