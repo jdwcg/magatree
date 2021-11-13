@@ -114,10 +114,18 @@ div.searchsection {
     }
   }
 }
+.storeViewWrap {
+   background: #cfcdd3 !important;
+   &:nth-child(2) {
+      border-radius: 0 0 1rem 1rem !important;
+   }
+}
 .btnWrap-storeDetail {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1em !important;
+  background: #cfcdd3 !important;
+  border-radius: 0 0 1rem 1rem !important;
   button {
     cursor: pointer;
     i {
@@ -134,7 +142,7 @@ div.searchsection {
   display: flex;
   justify-content: flex-start !important;
   align-items: flex-start!important;
-  background: #fff !important;
+  background: transparent !important;
   padding: 1rem ;
   height: auto !important;
   ul {

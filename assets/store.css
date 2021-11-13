@@ -33,12 +33,15 @@ div.searchsection div.searchResult { max-width: 640px; margin: 0 auto; padding: 
 .thumbnail article div:nth-child(2) { position: relative; }
 .thumbnail article div:nth-child(2) i { color: tomato; position: absolute; right: 16px; }
 
-.btnWrap-storeDetail { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 1rem 1em !important; }
+.storeViewWrap { background: #cfcdd3 !important; }
+.storeViewWrap:nth-child(2) { border-radius: 0 0 1rem 1rem !important; }
+
+.btnWrap-storeDetail { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 1rem 1em !important; background: #cfcdd3 !important; border-radius: 0 0 1rem 1rem !important; }
 .btnWrap-storeDetail button { cursor: pointer; }
 .btnWrap-storeDetail button i { position: relative !important; left: -4px; color: #222 !important; }
 .btnWrap-storeDetail :not(:last-child) { margin-right: .6rem; }
 
-.storeView { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start !important; -ms-flex-pack: start !important; justify-content: flex-start !important; -webkit-box-align: start !important; -ms-flex-align: start !important; align-items: flex-start !important; background: #fff !important; padding: 1rem; height: auto !important; }
+.storeView { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start !important; -ms-flex-pack: start !important; justify-content: flex-start !important; -webkit-box-align: start !important; -ms-flex-align: start !important; align-items: flex-start !important; background: transparent !important; padding: 1rem; height: auto !important; }
 .storeView ul { word-break: keep-all; font-size: 14px !important; padding: 0 1rem 0 0 !important; }
 .storeView ul:first-child { font-weight: 600 !important; }
 
