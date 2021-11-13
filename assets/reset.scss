@@ -182,7 +182,10 @@ header {
                align-items: center;
                > i, h2 {color: tomato;}
                > i {font-size: 2.5rem;}
-               >h2 {font-size: 1rem; padding: 10px;word-break: keep-all;text-align: center;}
+               >h2 {
+                  font-size: 1rem; padding:5px 12px;word-break: keep-all;text-align: center;
+                  background: #fff; border-radius: 6px;
+               }
             }
 
          }
