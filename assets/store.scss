@@ -117,7 +117,7 @@ div.searchsection {
 .storeViewWrap {
    background: #cfcdd3 !important;
    &:nth-child(2) {
-      border-radius: 0 0 1rem 1rem !important;
+      border-radius: 0 0 8px 8px !important;
    }
 }
 .btnWrap-storeDetail {
@@ -125,7 +125,7 @@ div.searchsection {
   justify-content: space-between;
   padding: 1rem 1em !important;
   background: #cfcdd3 !important;
-  border-radius: 0 0 1rem 1rem !important;
+  border-radius: 0 0 8px 8px !important;
   button {
     cursor: pointer;
     i {
