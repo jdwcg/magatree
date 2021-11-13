@@ -151,6 +151,9 @@ div.searchsection {
     padding: 0 1rem 0 0 !important;
     &:first-child {
       font-weight: 600 !important;
+      li {
+         color: #919191;
+      }
     }
   }
 }

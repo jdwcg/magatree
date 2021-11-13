@@ -44,6 +44,7 @@ div.searchsection div.searchResult { max-width: 640px; margin: 0 auto; padding: 
 .storeView { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start !important; -ms-flex-pack: start !important; justify-content: flex-start !important; -webkit-box-align: start !important; -ms-flex-align: start !important; align-items: flex-start !important; background: transparent !important; padding: 0 1em .4rem; height: auto !important; }
 .storeView ul { word-break: keep-all; font-size: 14px !important; padding: 0 1rem 0 0 !important; }
 .storeView ul:first-child { font-weight: 600 !important; }
+.storeView ul:first-child li { color: #919191; }
 
 .thumbnail article div:first-child { height: auto; background: #fff; }
 
