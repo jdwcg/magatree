@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="../slick/slick.css">
+   <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
+   <link rel="stylesheet" href="../assets/store.css">
+   <title>megatree</title>
+</head>
+<body>
+  <nav>
+     <a>
+       <i class="bi bi-house-door-fill" style="font-size:22px"></i>
+     </a>
+     <span>매장관리</span>
+     <a href="store-management-update.html">
+        <span class="material-icons">auto_fix_high</span>
+        <!-- <span class="material-icons">save</span> -->
+     </a>
+  </nav>
+
+  <nav class="navHeight"></nav>
+
+<div class="thumbnailWrap">
+   <section class="thumbnail">
+      <article>
+         <div class="storeViewWrap">
+
+           <section class="lazy slider" data-sizes="100vw">
+             <div>
+               <img style="width: 100%;" src="../assets/imgs/shopimg.jpg" alt="img">
+             </div>
+             <div>
+               <img src="../assets/imgs/shopimg.jpg" alt="img">
+             </div>
+             <div>
+               <img src="../assets/imgs/shopimg.jpg" alt="img">
+             </div>
+           </section>
+         </div>
+         <div class="storeViewWrap">
+            <div class="storeView">
+              <ul>
+                <li>휴무일</li>
+                <li>지역</li>
+                <li>주소</li>
+              </ul>
+              <ul>
+                <li>매주 수요일</li>
+                <li>서울시 금천구</li>
+                <li>서울시 금천구 벚꽃로 278 SJ테크노빌 916호</li>
+              </ul>
+              <span class="mark">
+                <i  onclick="incrementClick()" class="bi bi-heart"></i>
+                <i  onclick="incrementClick()" class="bi bi-heart-fill"></i>
+              </span>
+            </div>
+
+            <div class="btnWrap-storeDetail">
+              <button><span><i class="bi bi-heart"></i></span>관심 매장(12)</button>
+              <button><span><i class="bi bi-telephone"></i></span>매장 문의</button>
+            </div>
+         </div>
+      </article>
+   </section>
+</div>
+
+<div class="height"></div>
+<footer class="bottomNav">
+  <div class="btns">
+    <a href="store-management.html">
+
+      <span class="btnIcon btnIcon1">
+        <i class="bi bi-door-open-fill"></i>
+      </span>
+      <span>매장관리</span>
+    </a>
+    <a href="coupon-management.html">
+      <span class="btnIcon btnIcon2">
+        <i class="bi bi-ticket-perferated"></i>
+        <!-- <i class="bi bi-ticket-perferated-fill"></i> -->
+      </span>
+      <span>쿠폰관리</span>
+    </a>
+    <a href="calc-management.html">
+      <span class="btnIcon btnIcon3">
+        <i class="bi bi-calculator"></i>
+        <!-- <i class="bi bi-calculator-fill"></i> -->
+      </span>
+      <span>정산내역</span>
+    </a>
+    <a href="myinfo-management.html">
+      <span class="btnIcon btnIcon4">
+        <i class="bi bi-person"></i>
+      </span>
+      <span>내정보</span>
+    </a>
+  </div>
+</footer>
+
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $(document).on('ready', function() {
+
+    $(".lazy").slick({
+      slidesToShow : 1,
+      infinite: true,
+      dots: true,
+      autoplay: true,
+      draggable : true,
+    });
+  });
+</script>
+
+</body>
+</html>
