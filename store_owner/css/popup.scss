@@ -1,5 +1,6 @@
 .popupBg {
   z-index: 10;
+  max-width: 2000px;
 }
 .popup {
   z-index: 11;
@@ -30,8 +31,6 @@
   position: absolute;
   left: 50%; top: 50%;
   transform: translate(-50%, -50%);
-
-
   .store-txt {
     display: flex;
     flex-direction: column;
@@ -41,7 +40,6 @@
     }
     h6 { padding-top: 1rem;}
     h3 {padding-bottom: 1rem;}
-
   }
   .btnWrap {
     display: flex;
