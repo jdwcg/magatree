@@ -28,7 +28,9 @@
         transform: translate(-50%, -50%);
         i {
           font-size: 3rem;
-          color: #ccc;
+          color: #555;
+          opacity: .5;
+
         }
       }
       input[type="file"] {

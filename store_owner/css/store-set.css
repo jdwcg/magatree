@@ -3,7 +3,7 @@
 .imgAttach .attachWrap .attachImg:not(:last-child) { margin-right: 10px; }
 .imgAttach .attachWrap .attachImg img { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100%; }
 .imgAttach .attachWrap .attachImg label { position: absolute; z-index: 999; display: -webkit-box; display: -ms-flexbox; display: flex; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
-.imgAttach .attachWrap .attachImg label i { font-size: 3rem; color: #ccc; }
+.imgAttach .attachWrap .attachImg label i { font-size: 3rem; color: #555; opacity: .5; }
 .imgAttach .attachWrap .attachImg input[type="file"] { visibility: hidden; }
 
 .store-info { padding: 1rem; background: #fff; border-radius: 8px; margin-top: 1rem; }
