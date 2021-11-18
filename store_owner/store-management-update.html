@@ -27,9 +27,31 @@
 
   <section class="imgAttach">
     <h4>매장 이미지</h4>
-    <input type="file" accept="image/png, image/jpeg">
-    <input type="file" accept="image/png, image/jpeg">
-    <input type="file" accept="image/png, image/jpeg">
+    <form runat="server" class="attachWrap">
+      <div class="attachImg">
+        <input accept="image/*" type='file' id="imgInp" />
+        <label for="imgInp"><i class="bi bi-plus-circle-dotted"></i></label>
+        <img id="blah" src="#" alt="image" />
+      </div>
+
+      <div class="attachImg">
+        <input accept="image/*" type='file' id="imgInp2" />
+        <label for="imgInp2"><i class="bi bi-card-image"></i></label>
+        <img id="blah2" src="#" alt="image" />
+      </div>
+
+      <div class="attachImg">
+        <input accept="image/*" type='file' id="imgInp3" />
+        <label for="imgInp3"><i class="bi bi-card-image"></i></label>
+        <img id="blah3" src="#" alt="image" />
+      </div>
+    </form>
+
+
+
+
+
+
   </section>
 
 <div class="height"></div>
@@ -65,11 +87,28 @@
   </div>
 </footer>
 
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/script.js"></script>
-
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-<script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
-
+<!-- <script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/script.js"></script> -->
+<script>
+  imgInp.onchange = evt => {
+const [file] = imgInp.files
+if (file) {
+  blah.src = URL.createObjectURL(file)
+}
+}
+  imgInp2.onchange = evt => {
+const [file] = imgInp2.files
+if (file) {
+  blah2.src = URL.createObjectURL(file)
+}
+}
+  imgInp3.onchange = evt => {
+const [file] = imgInp3.files
+if (file) {
+  blah3.src = URL.createObjectURL(file)
+}
+}
+</script>
 </body>
 </html>

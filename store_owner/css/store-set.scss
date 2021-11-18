@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.imgAttach {
+  .attachWrap {
+    display: flex;
+    .attachImg {
+      position: relative;
+      flex:1;
+      overflow: hidden;
+      height: 150px;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+      label {
+        position: absolute;
+
+        border: 1px solid red;
+
+        i {
+          font-size: 2rem;
+        }
+      }
+      input[type="file"] {
+        display: none;
+      }
+    }
+  }
+}
