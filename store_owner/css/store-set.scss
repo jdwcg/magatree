@@ -37,7 +37,25 @@
     }
   }
 }
-
+.info-resets {
+  padding: 1.4rem 0;
+  input {
+    margin-bottom: .5rem;
+  }
+}
+.adressSearchWrap {
+  display: flex;
+  input {
+    flex:1;
+    &:not(last-child){
+      margin-right: 10px;
+    }
+    &:last-child {
+      flex: .2;
+      background: #333;
+    }
+  }
+}
 .btns {
   display: flex;
   input{
@@ -45,6 +63,18 @@
     &:not(:last-child) {
       margin-right: 10px;
       background: #aaa;
+    }
+  }
+}
+.telWrap {
+  display: flex;
+  input {
+    flex:.2;
+    &:not(last-child){
+      margin-right: 10px;
+    }
+    &:last-child {
+      flex: 1;
     }
   }
 }
