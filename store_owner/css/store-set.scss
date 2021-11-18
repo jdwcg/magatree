@@ -37,8 +37,13 @@
     }
   }
 }
+.store-info {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
 .info-resets {
-  padding: 1.4rem 0;
   input {
     margin-bottom: .5rem;
   }
@@ -47,12 +52,11 @@
   display: flex;
   input {
     flex:1;
-    &:not(last-child){
-      margin-right: 10px;
-    }
+    &:first-child {margin-right: 10px;}
     &:last-child {
       flex: .2;
       background: #333;
+      margin-right: 0;
     }
   }
 }
@@ -70,11 +74,10 @@
   display: flex;
   input {
     flex:.2;
-    &:not(last-child){
-      margin-right: 10px;
-    }
+    &:first-child {margin-right: 10px;}
     &:last-child {
       flex: 1;
+      margin-right: 0;
     }
   }
 }
