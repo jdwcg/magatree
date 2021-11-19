@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="../slick/slick.css">
+   <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
+   <link rel="stylesheet" href="../assets/store.css">
+   <link rel="stylesheet" href="css/store-set.css">
+   <link rel="stylesheet" href="css/popup.css">
+   <title>megatree</title>
+</head>
+<body>
+  <nav>
+     <a onclick="javascript:history.back();">
+       <i class="bi bi-chevron-left"></i>
+     </a>
+     <span>매장정보 등록</span>
+     <a href="store-management-update.html">
+        <!-- <span class="material-icons">auto_fix_high</span> -->
+        <span class="material-icons" id="saveBtn">save</span>
+     </a>
+  </nav>
+
+  <nav class="navHeight"></nav>
+
+  <section class="imgAttach">
+
+    <form runat="server">
+      <div class="store-info">
+        <h4>매장 이미지 등록</h4>
+        <div class="attachWrap">
+          <div class="attachImg">
+            <label for="imgInp"><i class="bi bi-plus-circle-dotted"></i></label>
+            <input accept="image/*" type='file' id="imgInp" />
+            <img id="blah" src="#" alt="" />
+          </div>
+
+          <div class="attachImg">
+            <label for="imgInp2"><i class="bi bi-plus-circle-dotted"></i></label>
+            <input accept="image/*" type='file' id="imgInp2" />
+            <img id="blah2" src="#" alt="" />
+          </div>
+
+          <div class="attachImg">
+            <label for="imgInp3"><i class="bi bi-plus-circle-dotted"></i></label>
+            <input accept="image/*" type='file' id="imgInp3" />
+            <img id="blah3" src="#" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="store-info">
+        <div class="info-resets">
+          <label for="store-name"><h4>매장명</h4></label>
+          <input type="text" placeholder="예) 가온힐조헤어 가산점" id="store-name">
+          <label for="store-holiyday"><h4>휴무일</h4></label>
+          <input type="text" placeholder="예) 매주 수요일" id="store-holiyday">
+          <label for="store-holiyday"><h4>주소</h4></label>
+          <div class="adressSearchWrap">
+            <input type="text" placeholder="우편번호" id="store-holiyday">
+            <input type="button" value="주소검색" >
+          </div>
+          <input type="text" placeholder="주소" id="store-address">
+          <input type="text" placeholder="상세 주소" id="store-address-detail">
+
+          <label for="store-holiyday"><h4>전화번호</h4></label>
+          <div class="telWrap">
+            <input type="tel" placeholder="국번">
+            <input type="tel" placeholder="예) 1234-5678" id="store-holiyday">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="btns">
+        <input onclick="javascript:history.back();" type="button" value="돌아가기">
+        <input type="submit" value="저장하기" id="popupBtn">
+      </div>
+    </form>
+  </section>
+
+<div class="height"></div>
+<footer class="bottomNav">
+  <div class="btns">
+    <a href="store-management.html">
+
+      <span class="btnIcon btnIcon1">
+        <i class="bi bi-door-open-fill"></i>
+      </span>
+      <span>매장관리</span>
+    </a>
+    <a href="coupon-management.html">
+      <span class="btnIcon btnIcon2">
+        <i class="bi bi-ticket-perferated"></i>
+        <!-- <i class="bi bi-ticket-perferated-fill"></i> -->
+      </span>
+      <span>쿠폰관리</span>
+    </a>
+    <a href="calc-management.html">
+      <span class="btnIcon btnIcon3">
+        <i class="bi bi-calculator"></i>
+        <!-- <i class="bi bi-calculator-fill"></i> -->
+      </span>
+      <span>정산내역</span>
+    </a>
+    <a href="myinfo-management.html">
+      <span class="btnIcon btnIcon4">
+        <i class="bi bi-person"></i>
+      </span>
+      <span>내정보</span>
+    </a>
+  </div>
+</footer>
+
+<!-- 팝업 -->
+<section class="popup">
+  <i class="bi bi-x-lg"></i>
+  <!-- hr태그는 삭제  -->
+  <span>
+    <p><strong>수정된 정보를 저장하시겠습니까?</strong></p>
+    <p>수정한 정보로 저장됩니다.</p>
+  </span>
+  <hr>
+  <span>
+    <p><strong>이미 등록되어 있는 매장명입니다.</strong></p>
+  </span>
+  <hr>
+  <span>
+    <p><strong>입력되지 않은 필수 입력 항목이 있습니다.</strong></p>
+    <p>다시 확인해 주세요.</p>
+  </span>
+  <hr>
+  <span>
+    <p><strong>매장이미지는 필수로 1개 이상 등록해야합니다.</strong></p>
+  </span>
+  <div>
+    <button  id="cancelBtn">아니오</button>
+    <button type="submit" onclick="location.href='store-management.html'">예</button>
+  </div>
+</section>
+<section class="popupBg"></section>
+<!-- 팝업 End -->
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<!-- <script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/script.js"></script> -->
+<script src="script/popup.js"></script>
+<script>
+  imgInp.onchange = evt => {
+    const [file] = imgInp.files
+    if (file) {
+      blah.src = URL.createObjectURL(file)
+    }
+  }
+  imgInp2.onchange = evt => {
+    const [file] = imgInp2.files
+    if (file) {
+      blah2.src = URL.createObjectURL(file)
+    }
+  }
+  imgInp3.onchange = evt => {
+    const [file] = imgInp3.files
+    if (file) {
+      blah3.src = URL.createObjectURL(file)
+    }
+  }
+</script>
+</body>
+</html>
