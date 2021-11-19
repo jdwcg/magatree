@@ -8,6 +8,7 @@
    <link rel="stylesheet" type="text/css" href="../slick/slick.css">
    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
    <link rel="stylesheet" href="../assets/store.css">
+   <link rel="stylesheet" href="css/store-set.css">
    <link rel="stylesheet" href="css/popup.css">
    <link rel="stylesheet" href="css/style.css">
    <title>megatree</title>
@@ -17,48 +18,47 @@
      <a onclick="javascript:history.back();">
        <i class="bi bi-chevron-left"></i>
      </a>
-     <span>쿠폰관리</span>
-     <a href="coupon-management-write.html">
-        <span class="material-icons">auto_fix_high</span>
+     <span>쿠폰등록</span>
+     <a href="">
+        <span class="material-icons" id="saveBtn">save</span>
         <!-- <span class="material-icons">save</span> -->
      </a>
   </nav>
 
   <nav class="navHeight"></nav>
 
-  <section class="coupon">
-     <article>
-        <div class="coupon-desc">
-           <h6>가온힐 조헤어 가산점</h6>
-           <h2>코로나 극복 이벤트</h2>
-           <h5>10,000원 할인</h5>
-           <p>※ 5만원 이상 결제 시 사용가능 ※ 기간: 2021.00.00 ~ 00.00 까지</p>
-           <a href="coupon-management-update.html"></a>
+  <section class="">
+    <form runat="server">
+      <div class="store-info">
+        <div class="info-resets">
+          <label for="coupon-store"><h4>매장명</h4></label>
+          <input type="text" placeholder="매장명을 입력해 주세요." id="coupon-store">
+          <label for="coupon-name"><h4>쿠폰명</h4></label>
+          <input type="text" placeholder="쿠폰명을 입력해 주세요." id="coupon-name">
+          <label for="coupon-sale"><h4>할인가</h4></label>
+          <input type="text" placeholder="할인금액을 입력해 주세요." id="coupon-sale">
+          <label for="coupon-if"><h4>제약조건</h4></label>
+          <input type="text" placeholder="제약조건을 입력해 주세요." id="coupon-if">
+          <label for="coupon-term"><h4>기간</h4></label>
+          <div class="coupon-term-wrap">
+            <input type="date" id='currnetMonth1'><input type="date" id='currnetMonth2'>
+          </div>
+          <script>
+            document.getElementById('currnetMonth1').valueAsDate = new Date();
+            document.getElementById('currnetMonth2').valueAsDate = new Date();
+          </script>
+
+          <div class="coupon-desc">
+            <h4>상세내용</h4>
+            <textarea name="name" rows="8" cols="80"></textarea>
+          </div>
         </div>
-        <div>
-           <a href="">
-              <i class="bi bi-trash"></i>
-              <h2 id="popupBtn">삭제</h2>
-           </a>
-        </div>
-     </article>
-  </section>
-  <section class="coupon">
-     <article>
-        <div class="coupon-desc">
-           <h6>가온힐 조헤어 가산점</h6>
-           <h2>코로나 극복 이벤트</h2>
-           <h5>10,000원 할인</h5>
-           <p>※ 5만원 이상 결제 시 사용가능 ※ 기간: 2021.00.00 ~ 00.00 까지</p>
-           <a href="coupon-management-update.html"></a>
-        </div>
-        <div>
-           <a href="">
-              <i class="bi bi-trash"></i>
-              <h2 id="popupBtn">삭제</h2>
-           </a>
-        </div>
-     </article>
+      </div>
+      <div class="btns">
+        <input onclick="javascript:history.back();" type="button" value="돌아가기">
+        <input type="submit" value="저장하기" id="popupBtn">
+      </div>
+    </form>
   </section>
 
 
@@ -98,10 +98,9 @@
 <section class="popup">
   <i class="bi bi-x-lg"></i>
   <span>
-    <p><strong>쿠폰을 삭제하시겠습니까?</strong></p>
-    <p>삭제된 쿠폰은 복구가 불가능합니다.</p>
+    <p><strong>쿠폰을 등록하시겠습니까?</strong></p>
+    <p>새로운 쿠폰이 등록됩니다.</p>
   </span>
-
   <div>
     <button  id="cancelBtn">아니오</button>
     <button type="submit" onclick="location.href='coupon-management.html'">예</button>
