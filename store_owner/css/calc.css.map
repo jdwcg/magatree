@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AACA,SAAU,GACR,UAAU,EAAE,IAAI,EAChB,MAAM,EAAE,wBAAwB;AAChC,aAAI,GACF,OAAO,EAAE,IAAI,EACb,UAAU,EAAE,IAAI,EAChB,MAAM,EAAE,aAAa",
-"sources": ["clac.scss"],
+"sources": ["calc.scss"],
 "names": [],
-"file": "clac.css"
+"file": "calc.css"
 }
