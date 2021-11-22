@@ -15,7 +15,7 @@
 .calcTable { font-size: 14px; overflow-x: auto; }
 .calcTable table { width: 100%; }
 .calcTable th, .calcTable td { word-break: keep-all; min-width: 70px; padding: 8px 4px; }
-.calcTable td { border-top: 1px solid #eee; text-align: center; }
+.calcTable td { border-top: 1px solid #e1e1e1; text-align: center; }
 .calcTable td:last-child { text-align: right; }
 
 /*# sourceMappingURL=calc.css.map */
