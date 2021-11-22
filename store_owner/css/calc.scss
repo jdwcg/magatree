@@ -20,7 +20,7 @@
   flex-direction: column;
   .clacBtns {
     display: flex;
-    button {padding: .4rem 0;}
+    button {padding: .4rem 0; cursor: pointer;}
     > button:not(:last-child) {
       margin-right: 10px;
     }
