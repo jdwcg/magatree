@@ -10,9 +10,9 @@
   >.clacHeader {
     background: #4338ca;
     justify-content: space-between;
-    @media(max-width:360px){
-      flex-direction: column;
-    }
+    // @media(max-width:360px){
+    //   flex-direction: column;
+    // }
     h2, p, span {color: #fff;}
   }
 }
