@@ -46,3 +46,20 @@
     }
   }
 }
+.calcTable {
+  font-size: 14px;
+  overflow-x: auto;
+  table {width: 100%;}
+  th, td {
+    word-break: keep-all;
+    min-width: 70px;
+    padding: 8px 4px;
+  }
+  td {
+    border-top: 1px solid #eee;
+    text-align: center;
+  }
+  td:last-child {
+  text-align: right;
+  }
+}
