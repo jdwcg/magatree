@@ -77,7 +77,7 @@ header { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; 
 @media (max-width: 480px) { .formComponent { width: 90%; } }
 .formComponent h1 { text-align: center; padding: 4rem 0; font-weight: 300; color: #e76666; }
 .formComponent h1 > span { font-weight: 700; color: #e76666; }
-.formComponent input, .formComponent button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }
+.formComponent input, .formComponent button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #f5f5f5; border-radius: 8px; }
 .formComponent input[type="button"], .formComponent input[type="submit"], .formComponent button[type="button"], .formComponent button[type="submit"] { background: #E76666; cursor: pointer; color: #fff; font-weight: 500; font-size: 16px; }
 .formComponent input[type="checkbox"], .formComponent button[type="checkbox"] { width: auto; }
 .formComponent label[for="agree"] { font-size: 14px; }
@@ -121,7 +121,7 @@ header { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; 
 .store .thumbnail-width ul li:last-child i:hover { color: tomato; }
 .store .thumbnail-width ul li:last-child .bi-heart, .store .thumbnail-width ul li:last-child .bi-heart-fill { color: tomato; }
 
-input, button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #eee; border-radius: 8px; }
+input, button { width: 100%; padding: 13px; margin: 4px 0; border: none; background: #f5f5f5; border-radius: 8px; }
 input[type="button"], input[type="submit"], button[type="button"], button[type="submit"] { background: #E76666; cursor: pointer; color: #fff; font-weight: 500; font-size: 16px; }
 input[type="radio"], button[type="radio"] { width: auto; }
 
