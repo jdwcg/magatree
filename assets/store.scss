@@ -115,7 +115,7 @@ div.searchsection {
   }
 }
 .storeViewWrap {
-   background: #cfcdd3 !important;
+   background: #e0e6ea !important;
    &:nth-child(2) {
       border-radius: 0 0 8px 8px !important;
    }
@@ -124,10 +124,10 @@ div.searchsection {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1em !important;
-  background: #cfcdd3 !important;
+  background: #e0e6ea !important;
   border-radius: 0 0 8px 8px !important;
   button {
-     background: #f1f1f1;
+     background: #fff;
     cursor: pointer;
     i {
       position: relative !important;
