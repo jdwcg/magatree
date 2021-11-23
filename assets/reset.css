@@ -94,7 +94,7 @@ header { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; 
 .closeXbtn { position: relative; display: block; }
 .closeXbtn > i { position: absolute; z-index: 9; right: 10px; top: 5px; color: #666 !important; font-size: 1.6rem; }
 
-.popupBg { position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: #111; opacity: .5; }
+.popupBg { position: fixed; z-index: 9; left: 0; top: 0; width: 100%; height: 100%; background: #111; opacity: .5; }
 
 .popup { overflow-y: auto; position: fixed; z-index: 10; border-radius: 8px; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 95%; height: 95%; background: #fff; padding: 1rem; }
 @media (min-width: 640px) { .popup { width: 700px; } }

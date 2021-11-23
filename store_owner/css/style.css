@@ -8,4 +8,19 @@
 
 .coupon-desc > textarea { padding: 1rem; border: 1px solid #ddd; width: 100%; border-radius: 6px; }
 
+.myInfoSec .heading { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; word-break: keep-all; background: #e76666; border-radius: 8px; padding: 0 1em; }
+.myInfoSec .heading p { color: #fff; }
+.myInfoSec .heading button { cursor: pointer; width: auto; background: #fff; padding: 10px; margin: 1rem 0; border-radius: 6px; }
+.myInfoSec > ul { padding: 2rem 0; }
+.myInfoSec > ul > li { background: #fff; border-radius: 8px; margin: 1rem 0; }
+.myInfoSec > ul > li a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 1rem 1em; }
+
+.myInfoSec-update form { background: #fff; padding: 1rem; border-radius: 8px; }
+.myInfoSec-update form > input { border-radius: 6px; }
+.myInfoSec-update .logout { border: 1px solid #ddd; margin-top: 2rem; cursor: pointer; }
+
+.popup { height: auto; }
+.popup div { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.popup div button:not(:last-child) { margin-right: 10px; }
+
 /*# sourceMappingURL=style.css.map */

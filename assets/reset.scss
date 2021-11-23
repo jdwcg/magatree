@@ -306,7 +306,7 @@ header {
 }
 // 팝업컴포넌트
 .popupBg {
-  position: fixed;
+  position: fixed; z-index: 9;
   left: 0; top: 0;
   width: 100%; height: 100%;
   background: #111; opacity: .5;
