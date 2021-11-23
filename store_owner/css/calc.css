@@ -1,6 +1,7 @@
 .clacWrap > .clacHeader, .clacWrap .clacDesc { padding: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; background: #fff; margin-bottom: 1rem; border-radius: 8px; }
-.clacWrap > .clacHeader { background: #4338ca; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.clacWrap > .clacHeader { background: #4338ca; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .clacWrap > .clacHeader h2, .clacWrap > .clacHeader p, .clacWrap > .clacHeader span { color: #fff; }
+.clacWrap > .clacHeader i { color: #fff; font-size: 1.4rem; }
 
 .clacDesc { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 .clacDesc .clacBtns { display: -webkit-box; display: -ms-flexbox; display: flex; }
