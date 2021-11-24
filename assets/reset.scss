@@ -114,6 +114,9 @@ header {
             overflow: hidden;
             width: 100%;
             height: 42px;
+            a:hover {
+              text-decoration: underline;
+            }
          }
          >h5 {color: tomato;}
          > span {

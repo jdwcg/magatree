@@ -44,6 +44,7 @@ header { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; 
 .thumbnail article div:first-child img { width: 100%; }
 .thumbnail article div:last-child { padding: 1rem 1em; background: #fff; border-radius: 0 0 8px 8px; }
 .thumbnail article div:last-child > h4 { overflow: hidden; width: 100%; height: 42px; }
+.thumbnail article div:last-child > h4 a:hover { text-decoration: underline; }
 .thumbnail article div:last-child > h5 { color: tomato; }
 .thumbnail article div:last-child > span { text-decoration: line-through; }
 
