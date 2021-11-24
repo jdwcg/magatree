@@ -5,12 +5,14 @@
     > span {
       box-sizing: border-box;
       margin: 1rem .5em;
-      padding: 6px 1em;
-      border-radius: 2em;
-      background: #ffffff;
+
+
+
       > a {
+        background: #ffffff;
          font-size: 16px;
-        background-color: transparent;
+         padding: 6px 1em;
+         border-radius: 2em;
 
       }
     }
