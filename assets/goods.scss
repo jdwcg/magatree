@@ -6,6 +6,7 @@
       box-sizing: border-box;
       margin: 1rem .5em;
       > a {
+        -webkit-tap-highlight-color:transparent;
         background: #ffffff;
          font-size: 16px;
          padding: 6px 1em;
