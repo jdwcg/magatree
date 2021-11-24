@@ -14,7 +14,7 @@ $(function(){
 
 })
 
-// 카운트
+// 카운트 어렵..
 // var counterVal = 0;
 // function incrementClick() {
 //     updateDisplay(++counterVal);
@@ -42,4 +42,18 @@ seachBtn.addEventListener('click', function(e){
          seachBtn.style.display = "none";
          close.style.display = "block";
       }
+})
+
+// 상품 탭
+$(function(){
+  $('.ring').click(function(){
+    var fz = $(this).children('a').css('fontSize');
+    if(fz === '16px') {
+      $(this).children('a').css('fontSize', '15px');
+     $(this).children('a').css('border', '2px solid #ffb3b3');
+    } else {
+        $(this).children('a').css('fontSize', '16px');
+        $(this).children('a').css('border', 'none');
+    }
+  })
 })
