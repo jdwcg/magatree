@@ -1,1 +1,14 @@
 @import url("store.css");
+.thumbnailWrap {
+  > h3 {
+    justify-content: flex-start;
+    > span {
+      box-sizing: border-box;
+      margin: 1rem .5em;
+      > a {
+        padding: 6px 1em; font-size: 16px;
+        border-radius: 2em;
+      }
+    }
+  }
+}

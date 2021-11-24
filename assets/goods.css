@@ -1,3 +1,6 @@
 @import url("store.css");
+.thumbnailWrap > h3 { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.thumbnailWrap > h3 > span { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 1rem .5em; }
+.thumbnailWrap > h3 > span > a { padding: 6px 1em; font-size: 16px; border-radius: 2em; }
 
 /*# sourceMappingURL=goods.css.map */

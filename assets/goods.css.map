@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,wBAAgB",
+"mappings": "AAAQ,wBAAgB;AAEtB,mBAAK,GACH,eAAe,EAAE,UAAU;AAC3B,0BAAO,GACL,UAAU,EAAE,UAAU,EACtB,MAAM,EAAE,SAAS;AACjB,8BAAI,GACF,OAAO,EAAE,OAAO,EAAE,SAAS,EAAE,IAAI,EACjC,aAAa,EAAE,GAAG",
 "sources": ["goods.scss"],
 "names": [],
 "file": "goods.css"
