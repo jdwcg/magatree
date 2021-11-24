@@ -42,24 +42,36 @@
 <!-- 썸네일컴포넌트 시작 -->
 <div class="thumbnailWrap">
    <h3>
-     <span class="ring"><a href="#">상품</a></span>
+     <span id="ring" class="ring"><a href="#">상품</a></span>
      <span class="ring"><a href="#">컨텐츠</a></span>
      <span class="ring"><a href="#">관심상품</a></span>
    </h3>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script>
      $(function(){
-       $('.ring > a').css('background', '#fff');
        $('.ring').click(function(){
          var fz = $(this).children('a').css('fontSize');
          if(fz === '16px') {
-           $(this).children('a').css('fontSize', '18px');
+           $(this).children('a').css('fontSize', '20px');
          } else {
              $(this).children('a').css('fontSize', '16px');
 
          }
        })
      })
+var ring = document.querySelector('.ring');
+
+// var ring = document.getElementById('ring');
+//      ring.addEventListener('click', function(){
+//
+//        var bg = this.style.backgroundColor;
+//        if(bg == "#ffffff") {
+//          this.style.backgroundColor="tomato";
+//        } else {
+//          this.style.backgroundColor="#ffffff";
+//        }
+//      })
+
    </script>
    <section class="thumbnail">
       <article>
