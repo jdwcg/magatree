@@ -17,13 +17,19 @@
 .thumbnail {
 
   > article {
-    padding: 1rem;
     background: #fff;
     border-radius: 8px;
     > div:first-child {
       height: 140px;
-      margin-bottom: .6rem;
       display: flex;
+    }
+    > div:last-child {
+      padding: 1rem;border-radius: 8px;
+      h4 {
+        a:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
