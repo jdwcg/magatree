@@ -9,3 +9,14 @@ $(function(){
     $('.popup, .popupBg').hide();
   })
 })
+
+document.getElementById('pushOff').style.display="block";
+document.getElementById('pushOn').style.display="none";
+document.getElementById('pushOff').addEventListener('click', function(){
+  document.getElementById('pushOff').style.display="none";
+  document.getElementById('pushOn').style.display="block";
+})
+document.getElementById('pushOn').addEventListener('click', function(){
+  document.getElementById('pushOn').style.display="none";
+  document.getElementById('pushOff').style.display="block";
+})

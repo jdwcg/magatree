@@ -48,6 +48,7 @@
     word-break: keep-all;
     background: #e76666; border-radius: 8px;
     padding: 0 1em;
+    > i {color: #fff; font-size: 20px;}
     p {color: #fff;}
     button {
       cursor: pointer;
@@ -57,7 +58,7 @@
     }
   }
   > ul {
-    padding: 2rem 0;
+    padding: .4rem 0;
     > li {
       background: #fff;
       border-radius: 8px;
@@ -70,8 +71,10 @@
       }
     }
   }
+
 }
 .myInfoSec-update {
+
   form {
     background: #fff;
     padding: 1rem;
@@ -80,17 +83,57 @@
       border-radius: 6px;
     }
   }
-  .logout {
-    border: 1px solid #ddd;
-    margin-top: 2rem; cursor: pointer;
+  #popupBtn {
+    background:#e76666; color: #fff; font-weight: 500;
+    margin-top: 2rem;
   }
+  .logout {
+    background: #ddd; font-weight: 500;
+    margin-top: 1rem; cursor: pointer;
+  }
+
+
 }
 .popup {
   height: auto;
+  width: 80%;
   div {
     display: flex;
     button:not(:last-child) {
       margin-right: 10px;
+    }
+  }
+}
+.popupBg {
+  @media(min-width: 480px) {
+    max-width: none;
+  }
+}
+.terms {
+  div {
+    background: #fff; padding: .4rem 1em 1.5rem; border-radius: 8px;
+    h3 { margin-top: 1rem;}
+  }
+}
+
+.setting {
+  ul {
+    li {
+      display: flex; justify-content: space-between;
+      padding: 1rem 1em; align-items: center;
+      i {
+        font-size: 24px;
+        padding:0;
+      }
+      button {
+        display: inline-block; border-radius: 6px;
+        padding: 8px 12px; cursor:pointer;
+        margin: 12px 0; color: #fff;
+        background: #e76666;
+      }
+    }
+    li:last-child {
+      padding: 0 16px;
     }
   }
 }

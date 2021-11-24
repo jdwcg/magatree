@@ -33,12 +33,14 @@
     <input type="text" placeholder="홍길동">
     <input type="text" placeholder="010-0000-0000">
   </form>
+  <button id="popupBtn">저장하기</button>
   <button class="logout" onclick="removeCheck();">로그아웃</button>
 
   <script>
     function removeCheck() {
    if (confirm("로그아웃 하시겠습니까? 로그아웃 시 로그인 페이지로 이동합니다.") == true){
-       document.removefrm.submit();
+       // document.removefrm.submit();
+        location.href='../login.html';
    }else{
        return false;
    }
