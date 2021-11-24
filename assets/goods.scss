@@ -5,16 +5,25 @@
     > span {
       box-sizing: border-box;
       margin: 1rem .5em;
-
-
-
       > a {
         background: #ffffff;
          font-size: 16px;
          padding: 6px 1em;
          border-radius: 2em;
-
       }
+    }
+  }
+}
+.thumbnail {
+
+  > article {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    > div:first-child {
+      height: 140px;
+      margin-bottom: .6rem;
+      display: flex;
     }
   }
 }
