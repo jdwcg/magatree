@@ -4,6 +4,7 @@ $("html, body").animate({ scrollTop: 0 }, "slow");
 return false;
 });
 // 구매하기 & 챗봇 버튼
+document.getElementById('btnsBg').classList.add('btnsBgView');
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
