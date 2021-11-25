@@ -46,21 +46,6 @@
      <span class="ring"><a href="#">컨텐츠</a></span>
      <span class="ring"><a href="#">관심상품</a></span>
    </h3>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <script type="text/javascript">
-   // $('#scrollToggle').hide();
-   var prevScrollpos = window.pageYOffset;
-   window.onscroll = function () {
-       var currentScrollPos = window.pageYOffset;
-       if (prevScrollpos > currentScrollPos) {
-           document.getElementById("scrollToggle").style.top = "40px";
-       } else {
-           document.getElementById("scrollToggle").style.top = "-22px";
-       }
-       prevScrollpos = currentScrollPos;
-   }
-   </script>
-
    <section class="thumbnail">
       <article>
          <div style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center / cover;height: 200px; overflow:hidden; ">
@@ -218,6 +203,17 @@
 </footer>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/script.js"></script>
-
+<script type="text/javascript">
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("scrollToggle").style.top = "40px";
+    } else {
+        document.getElementById("scrollToggle").style.top = "-22px";
+    }
+    prevScrollpos = currentScrollPos;
+}
+</script>
 </body>
 </html>
