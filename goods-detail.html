@@ -110,12 +110,21 @@
    </section>
 </div>
 
-<div class="btnWrap-goodsDetail">
-  <button><span></span>메가봇에게물어보기</button>
+<div class="btnWrap-goodsDetail" id="btnWrap-goodsDetail">
+  <button><span></span>메가봇에게 물어보기</button>
   <button><span></span>구매하러 가기</button>
 </div>
 <script>
-  
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+          document.getElementById("btnWrap-goodsDetail").style.bottom = "0";
+      } else {
+          document.getElementById("btnWrap-goodsDetail").style.bottom = "70px";
+      }
+      prevScrollpos = currentScrollPos;
+  }
 </script>
 
 <div class="height"></div>
