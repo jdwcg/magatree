@@ -83,7 +83,7 @@
   display: flex;
   width: 100%;
   transition: all .4s ease-in-out;
-  padding: 0 2em;
+  padding: .5rem 2em;
   @media(min-width:640px) {
     max-width: 640px;
     left: 50%; transform: translate(-50%);
@@ -92,16 +92,17 @@
     flex-direction: column;
   }
   button {
-    background: #222;
+    background: #4338CA;
     color: #fff;
     height: 40px; cursor: pointer;
     border-radius: 2rem; padding: 6px 1em;
+    box-shadow: 0 0 8px 4px rgba(150,150,150,.1);
     &:not(:last-child) {
       margin-right: 10px;
     }
   }
   button:last-child {
-    background: #FFD1D1;
+    background: #fff;
     height: 40px;
     position: relative;
     color: #111;
