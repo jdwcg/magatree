@@ -23,7 +23,7 @@
 .goods-desc { background: #fff; border-radius: 8px; padding: 1rem; }
 .goods-desc h3 { padding: 2rem 0 0; }
 .goods-desc h4 { padding: 8px 0 4px; }
-.goods-desc .designPage { margin: 1rem 0 0; background: #ccc; height: 600px; border-radius: 4px; }
+.goods-desc .designPage { background: #ccc; height: auto; border-radius: 4px; }
 .goods-desc .designPage img { border-radius: 4px; }
 
 .btnWrap-goodsDetail { position: fixed; bottom: 70px; display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; -webkit-transition: all .4s ease-in-out; transition: all .4s ease-in-out; padding: .5rem 2em; }
