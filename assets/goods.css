@@ -31,8 +31,10 @@
 @media (max-width: 360px) { .btnWrap-goodsDetail { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; } }
 .btnWrap-goodsDetail button { background: #4338CA; color: #fff; height: 40px; cursor: pointer; border-radius: 2rem; padding: 6px 1em; -webkit-box-shadow: 0 0 22px 4px rgba(150, 150, 150, 0.3); box-shadow: 0 0 22px 4px rgba(150, 150, 150, 0.3); }
 .btnWrap-goodsDetail button:not(:last-child) { margin-right: 10px; }
-.btnWrap-goodsDetail button:last-child { background: #fff; height: 40px; position: relative; color: #111; padding-left: 6em; font-size: 12px; text-align: left; line-height: 1.2; }
-@media (max-width: 360px) { .btnWrap-goodsDetail button:last-child br { display: none; } }
-.btnWrap-goodsDetail button:last-child > span { position: absolute; left: 0; top: 0; }
+.btnWrap-goodsDetail button:nth-child(2) { background: #fff; height: 40px; position: relative; color: #111; padding-left: 5em; font-size: 12px; text-align: left; line-height: 1.2; }
+@media (max-width: 360px) { .btnWrap-goodsDetail button:nth-child(2) br { display: none; } }
+.btnWrap-goodsDetail button:nth-child(2) > span { position: absolute; left: 0; top: 0; }
+.btnWrap-goodsDetail button:last-child { background: #222; }
+.btnWrap-goodsDetail button:last-child i { color: #fff; }
 
 /*# sourceMappingURL=goods.css.map */

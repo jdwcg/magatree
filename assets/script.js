@@ -1,3 +1,8 @@
+// 스크롤탑
+$("#top").click(function() {
+$("html, body").animate({ scrollTop: 0 }, "slow");
+return false;
+});
 // 찜하기
 $(function(){
   $('.bi-heart-fill').css("display", "none");
