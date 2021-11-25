@@ -3,22 +3,7 @@ $("#top").click(function() {
 $("html, body").animate({ scrollTop: 0 }, "slow");
 return false;
 });
-// 구매하기 & 챗봇 버튼
-document.getElementById('btnsBg').classList.add('btnsBgView');
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("btnWrap-goodsDetail").style.bottom = "0";
-        document.getElementById("btnsBg").style.bottom = "-20px";
-        document.getElementById('btnsBg').classList.add('btnsBgView');
-    } else {
-        document.getElementById("btnWrap-goodsDetail").style.bottom = "70px";
-        document.getElementById("btnsBg").style.bottom = "60px";
-        document.getElementById('btnsBg').classList.add('btnsBgView');
-    }
-    prevScrollpos = currentScrollPos;
-}
+
 // 찜하기
 $(function(){
   $('.bi-heart-fill').css("display", "none");
