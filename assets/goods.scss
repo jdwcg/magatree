@@ -1,15 +1,18 @@
 @import url("store.css");
 .thumbnailWrap {
   > h3 {
-    justify-content: flex-start;
-
-    // position: fixed; z-index: 8;
-    // background: rgba(50,50,50, .5);
-    // -webkit-backdrop-filter:blur(20px);
-
+     transition: all .4s ease-in-out;
+     position: fixed; z-index: 4;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 18px 4px rgba(50,50,50,.1);
+    border-radius: 0 0 1.4em 1.4em;
+    width: 640px;
+    top: 40px;
     > span {
       box-sizing: border-box;
-      margin: 1rem .5em;
+      margin: 1rem .5em .6rem;
       > a {
         -webkit-tap-highlight-color:transparent;
         background: #ffffff;
@@ -152,9 +155,7 @@
   border-radius: 1.4rem 1.4em 0 0;
 }
 .btnsBgView {
-  // background: #555;
   padding: 2rem;
-  // opacity: .1;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   box-shadow: 0 0 18px 4px rgba(50,50,50,.1);

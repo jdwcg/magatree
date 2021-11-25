@@ -1,6 +1,6 @@
 @import url("store.css");
-.thumbnailWrap > h3 { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
-.thumbnailWrap > h3 > span { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 1rem .5em; }
+.thumbnailWrap > h3 { -webkit-transition: all .4s ease-in-out; transition: all .4s ease-in-out; position: fixed; z-index: 4; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); -webkit-box-shadow: 0 0 18px 4px rgba(50, 50, 50, 0.1); box-shadow: 0 0 18px 4px rgba(50, 50, 50, 0.1); border-radius: 0 0 1.4em 1.4em; width: 640px; top: 40px; }
+.thumbnailWrap > h3 > span { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 1rem .5em .6rem; }
 .thumbnailWrap > h3 > span > a { -webkit-tap-highlight-color: transparent; background: #ffffff; font-size: 16px; padding: 6px 1em; border-radius: 2em; outline: none; }
 
 .slick-dotted.slick-slider { margin-bottom: 0; }
