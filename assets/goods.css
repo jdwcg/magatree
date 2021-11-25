@@ -38,7 +38,8 @@
 .btnWrap-goodsDetail button:last-child { -webkit-tap-highlight-color: transparent; background: #fff; }
 .btnWrap-goodsDetail button:last-child i { color: #222; }
 
-#btnsBg { position: fixed; z-index: 8; width: 640px; bottom: 50px; height: 80px; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); -webkit-transition: all .3s ease-in-out; transition: all .3s ease-in-out; border-radius: 1.5rem 1.5em 0 0; }
+#btnsBg { position: fixed; z-index: 8; width: 640px; bottom: 50px; height: 80px; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); -webkit-transition: all .3s ease-in-out; transition: all .3s ease-in-out; border-radius: 1.4rem 1.4em 0 0; }
+@media (max-width: 640px) { #btnsBg { width: 100%; } }
 
 .btnsBgView { background: #222; padding: 2rem; opacity: .3; }
 
