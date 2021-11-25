@@ -57,14 +57,14 @@ $(function(){
   });
   $('.ring').click(function(){
     var fz = $(this).children('a').css('fontSize');
-    if(fz === '16px') {
-      $(this).children('a').css('fontSize', '15px');
+    if(fz === '14px') {
+      $(this).children('a').css('fontSize', '13px');
      $(this).children('a').css({
        'border': '2px solid #ffb3b3',
        'background': '#ffebe8'
      });
     } else {
-        $(this).children('a').css('fontSize', '16px');
+        $(this).children('a').css('fontSize', '14px');
         $(this).children('a').css({
           'border': 'none',
           'background': '#fff'
