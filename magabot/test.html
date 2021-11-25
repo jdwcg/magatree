@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text">
+    <span></span>
+    <button>검색</button>
+    <script>
+        $('input').focus(function(){
+        // $(this).next('span').html('focus');
+        $('button').css('background-color', 'red')
+        }).blur(function(){
+            // $(this).next('span').html('blur');
+            $('button').css('background-color', 'grey')
+        }).change(function(e){
+            alert('change!!' + $(e.target).val());
+        }).select(function(){
+            // $(this).next('span').html('select');
+        });
+    </script>
+</body>
+</html>

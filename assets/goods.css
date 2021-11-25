@@ -11,8 +11,6 @@
 .thumbnail > article > div:last-child { padding: 1rem; border-radius: 8px; }
 .thumbnail > article > div:last-child h4 a:hover { text-decoration: underline; }
 
-.divLine { width: 90%; border: none; height: 3px; background: #fff; }
-
 .storeViewWrap { background: #fff !important; }
 
 .storeView { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
