@@ -14,7 +14,7 @@
 .storeViewWrap { background: #fff !important; }
 
 .storeView { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
-.storeView > h4 { padding: 0 .4em; }
+.storeView > h4 { word-break: keep-all; font-size: 1.125rem; padding: 0 .4em; }
 .storeView > h4 .line-through { display: inline-block; margin: 12px 0 0; text-decoration: line-through; }
 .storeView > h4 p { color: #e76666; font-size: 18px; margin: 0; padding: 0; }
 

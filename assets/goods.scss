@@ -46,6 +46,8 @@
 .storeView {
   flex-direction: row;
   >h4 {
+    word-break: keep-all;
+    font-size: 1.125rem;
     padding: 0 .4em;
     .line-through {
       display: inline-block;
