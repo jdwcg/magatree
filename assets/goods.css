@@ -3,9 +3,11 @@
 .thumbnailWrap > h3 > span { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 1rem .5em; }
 .thumbnailWrap > h3 > span > a { -webkit-tap-highlight-color: transparent; background: #ffffff; font-size: 16px; padding: 6px 1em; border-radius: 2em; outline: none; }
 
+.slick-dotted.slick-slider { margin-bottom: 0; }
+
 .thumbnail { margin-bottom: 1rem; }
 .thumbnail > article { background: #fff; border-radius: 8px; }
-.thumbnail > article > div:first-child { height: 140px; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.thumbnail > article > div:first-child { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .thumbnail > article > div:last-child { padding: 1rem; border-radius: 8px; }
 .thumbnail > article > div:last-child h4 a:hover { text-decoration: underline; }
 

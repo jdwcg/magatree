@@ -16,13 +16,17 @@
     }
   }
 }
+// 초기화
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
 .thumbnail {
   margin-bottom: 1rem;
   > article {
     background: #fff;
     border-radius: 8px;
     > div:first-child {
-      height: 140px;
+      // height: auto;
       display: flex;
     }
     > div:last-child {
