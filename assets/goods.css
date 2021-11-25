@@ -33,6 +33,7 @@
 .btnWrap-goodsDetail button:not(:last-child) { margin-right: 10px; }
 .btnWrap-goodsDetail button:nth-child(2) { background: #fff; height: 40px; position: relative; color: #111; padding-left: 5em; font-size: 12px; text-align: left; line-height: 1.2; -webkit-tap-highlight-color: transparent; }
 @media (max-width: 360px) { .btnWrap-goodsDetail button:nth-child(2) br { display: none; } }
+@media (min-width: 480px) { .btnWrap-goodsDetail button:nth-child(2) br { display: none; } }
 .btnWrap-goodsDetail button:nth-child(2) > span { position: absolute; left: 0; top: 0; }
 .btnWrap-goodsDetail button:last-child { -webkit-tap-highlight-color: transparent; background: #fff; }
 .btnWrap-goodsDetail button:last-child i { color: #222; }
