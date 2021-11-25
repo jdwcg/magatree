@@ -35,3 +35,63 @@
     }
   }
 }
+.divLine {
+  width: 90%;
+  border: none;
+  height: 3px;
+  background: #fff;
+}
+.storeViewWrap {
+  background: #fff !important;
+}
+.storeView {
+  flex-direction: row;
+  >h4 {
+    padding: 0 .4em;
+    .line-through {
+      display: inline-block;
+      margin: 12px 0 0;
+      text-decoration:line-through;
+    }
+    p {
+      color: #e76666; font-size: 18px; margin:0;padding:0;
+    }
+  }
+}
+.goods-desc-Wrap {
+  padding: 0 1.45em;
+}
+.goods-desc {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  h3 { padding: 2rem 0 0;}
+  h4 {padding: 8px 0 4px;}
+  .designPage {
+    margin: 1rem 0 0;
+    background: #ccc;
+    height: 600px;
+    border-radius: 4px;
+    img {
+      border-radius: 4px;
+    }
+  }
+}
+.btnWrap-goodsDetail {
+  position: fixed;
+  bottom: 70px;
+  display: flex;
+  width: 100%;
+  @media(min-width:640px) {
+    max-width: 640px;
+    left: 50%; transform: translate(-50%);
+  }
+  button {
+    background: #222;
+    color: #fff;
+    border-radius: 2rem; padding: 6px 1em;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
