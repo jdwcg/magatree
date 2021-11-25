@@ -109,6 +109,7 @@
     font-size: 12px;
     text-align: left;
     line-height: 1.2;
+    -webkit-tap-highlight-color:transparent;
     br {
       @media(max-width: 360px) {
         display: none;
@@ -120,6 +121,7 @@
     }
   }
   button:last-child {
+    -webkit-tap-highlight-color:transparent;
     background: #fff;
     i {
       color: #222;
