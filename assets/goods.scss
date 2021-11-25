@@ -88,12 +88,37 @@
     max-width: 640px;
     left: 50%; transform: translate(-50%);
   }
+  @media(max-width: 360px) {
+    flex-direction: column;
+  }
   button {
     background: #222;
     color: #fff;
+    height: 40px; cursor: pointer;
     border-radius: 2rem; padding: 6px 1em;
     &:not(:last-child) {
       margin-right: 10px;
     }
   }
+  button:last-child {
+    background: #FFD1D1;
+    height: 40px;
+    position: relative;
+    color: #111;
+    padding-left: 6em;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.2;
+    br {
+      @media(max-width: 360px) {
+        display: none;
+      }
+    }
+    > span {
+      position: absolute;
+      left: 0; top: 0;
+    }
+  }
 }
+
+// F2CECE
