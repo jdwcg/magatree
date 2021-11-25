@@ -10,6 +10,7 @@ window.onscroll = function () {
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("btnWrap-goodsDetail").style.bottom = "0";
         document.getElementById("btnsBg").style.bottom = "-20px";
+        document.getElementById('btnsBg').classList.add('btnsBgView');
     } else {
         document.getElementById("btnWrap-goodsDetail").style.bottom = "70px";
         document.getElementById("btnsBg").style.bottom = "60px";
