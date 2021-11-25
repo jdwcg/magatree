@@ -3,6 +3,17 @@ $("#top").click(function() {
 $("html, body").animate({ scrollTop: 0 }, "slow");
 return false;
 });
+// 구매하기버튼
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("btnWrap-goodsDetail").style.bottom = "0";
+    } else {
+        document.getElementById("btnWrap-goodsDetail").style.bottom = "70px";
+    }
+    prevScrollpos = currentScrollPos;
+}
 // 찜하기
 $(function(){
   $('.bi-heart-fill').css("display", "none");
@@ -31,7 +42,6 @@ $(function(){
 // function updateDisplay(val) {
 //     document.querySelector(".counter-label").innerHTML = val;
 // }
-
 var close = document.querySelector('.bi-x-lg')
 var seachBtn = document.querySelector('.bi-search')
 var searchsection = document.querySelector('.searchsection')
