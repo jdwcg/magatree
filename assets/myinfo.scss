@@ -1,1 +1,65 @@
-@import url("goods.css");
+  @import url("goods.css");
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+section {
+  background: #FDE7CC;
+}
+.myinfoBodyWrap {
+  height: 100vh;
+}
+.myinfoWrap {
+  display: flex;
+  justify-content: center;
+}
+.myinfo {
+  display: flex;
+  justify-content: flex-start;
+  button {
+    margin: 12px 0 0;
+    padding: 6px 14px;
+    background: #fff;
+    width: auto;
+  }
+  > span {
+    padding:0 1em;
+    > i {
+      font-size: 40px; color: #EE7766;
+    }
+  }
+}
+.btn-mainWrap {
+  display: flex;
+  justify-content: center;
+  // padding: 0 1em;
+  margin-bottom: 10px;
+}
+.btn-main {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem 0;
+  width: 100%;
+  position: relative;
+  > a {
+    position: absolute;
+    left: 0; top: 0; width: 100%; height: 100%;
+  }
+  @media(min-width:360px) {
+    width: 150px;
+  }
+  i {
+    font-size: 40px; color: #EE7766;
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+  text-align: center;
+  font-size: 14px;
+  padding: 1rem 2em;
+  hr {
+    border: none;
+    background: #F4E3E1;
+    height: 1px;
+    margin: .7rem 0;
+  }
+
+
+}

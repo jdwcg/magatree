@@ -1,3 +1,23 @@
 @import url("goods.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+section { background: #FDE7CC; }
+
+.myinfoBodyWrap { height: 100vh; }
+
+.myinfoWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.myinfo { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.myinfo button { margin: 12px 0 0; padding: 6px 14px; background: #fff; width: auto; }
+.myinfo > span { padding: 0 1em; }
+.myinfo > span > i { font-size: 40px; color: #EE7766; }
+
+.btn-mainWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 10px; }
+
+.btn-main { background: #fff; border-radius: 8px; padding: 1rem 0; width: 100%; position: relative; text-align: center; font-size: 14px; padding: 1rem 2em; }
+.btn-main > a { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+@media (min-width: 360px) { .btn-main { width: 150px; } }
+.btn-main i { font-size: 40px; color: #EE7766; }
+.btn-main:not(:last-child) { margin-right: 10px; }
+.btn-main hr { border: none; background: #F4E3E1; height: 1px; margin: .7rem 0; }
 
 /*# sourceMappingURL=myinfo.css.map */
