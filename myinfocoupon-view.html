@@ -43,26 +43,7 @@
 
 
 <div class="thumbnailWrap">
-   <div class="tabBtnWrap">
-     <button  onclick="location.href='myinfocoupon.html'">사용가능</button>
-     <button onclick="location.href='myinfocouponoff.html'">사용완료</button>
-   </div>
-   <section class="coupon">
-      <article>
-         <div>
-            <h6>가온힐 조헤어 가산점</h6>
-            <h2>코로나 극복 이벤트</h2>
-            <h5>10,000원 할인</h5>
-            <p>※ 5만원 이상 결제 시 사용가능 ※ 기간: 2021.00.00 ~ 00.00 까지</p>
-         </div>
-         <div>
-            <a href="myinfocoupon-view.html">
-               <!-- <i class="bi bi-download"></i> -->
-               <h2 onclick="location.href=''">사용하기</h2>
-            </a>
-         </div>
-      </article>
-   </section>
+
    <section class="coupon">
       <article>
          <div>
@@ -74,11 +55,25 @@
          <div>
             <a href="">
                <!-- <i class="bi bi-download"></i> -->
-               <h2 onclick="couponCheck();">사용하기</h2>
+               <h2 onclick="couponCheck();">사용가능</h2>
             </a>
          </div>
       </article>
    </section>
+   <section class="couponcaution">
+     <div>
+       <h4>유의사항</h4>
+       <p>
+          ※ 이 쿠폰 사용 시 .....<br />
+          ※ 이 쿠폰 사용 시 .....<br />
+          ※ 이 쿠폰 기간은 .....<br />
+       </p>
+     </div>
+   </section>
+   <section>
+     <button>매장직원 확인</button>
+   </section>
+
 </div>
 <script>
 function couponCheck() {

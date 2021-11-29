@@ -40,4 +40,8 @@ section { background: #FDE7CC; }
 
 .couponoff > article > div { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
+.couponcaution > div { background: #fff; padding: 1.45rem; border-radius: 6px; margin: 0 .45em; }
+.couponcaution > div h4 { padding: .4rem 0; }
+.couponcaution > div p { font-size: 14px; }
+
 /*# sourceMappingURL=myinfo.css.map */
