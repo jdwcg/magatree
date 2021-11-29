@@ -89,12 +89,22 @@
          <div>
             <a href="">
                <i class="bi bi-download"></i>
-               <h2>쿠폰 받기</h2>
+               <h2 onclick="couponCheck();">쿠폰 받기</h2>
             </a>
          </div>
       </article>
    </section>
 </div>
+<script>
+function couponCheck() {
+     if (confirm("쿠폰을 받으시겠습니까? 받은 쿠폰은 쿠폰함에 저장됩니다.") == true){
+         // document.removefrm.submit();
+          location.href='myinfostore-detail.html';
+     }else{
+         return false;
+     }
+}
+</script>
 <!-- 쿠폰컴포넌트 끝 -->
 <div class="height"></div>
 <footer class="bottomNav">
