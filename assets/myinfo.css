@@ -30,6 +30,8 @@ section { background: #FDE7CC; }
 .myinfoupdateBtnBool button { background: #ddd; }
 .myinfoupdateBtnBool button:not(:last-child) { margin-right: 10px; }
 
-.thumbnailWrap .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.thumbnailWrap .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em; }
+.thumbnailWrap .tabBtnWrap button { background: #fff; width: 150px; }
+.thumbnailWrap .tabBtnWrap button:not(:last-child) { margin-right: 10px; }
 
 /*# sourceMappingURL=myinfo.css.map */

@@ -83,5 +83,14 @@ section {
 .thumbnailWrap {
   .tabBtnWrap {
     display: flex;
+    justify-content: center;
+    margin: 1em;
+    button {
+      background: #fff;
+      width: 150px;
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
   }
 }
