@@ -9,7 +9,7 @@ section { background: #FDE7CC; }
 .myinfo { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; padding-top: 2em; }
 .myinfo button { margin: 12px 0 0; padding: 6px 14px; background: #fff; width: auto; }
 .myinfo > span { padding: 0 1em; }
-.myinfo > span > i { font-size: 40px; color: #EE7766; }
+.myinfo > span > i { font-size: 40px; color: #999; }
 
 .btn-mainWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 10px; }
 
