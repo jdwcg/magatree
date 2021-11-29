@@ -11,11 +11,9 @@
 </head>
 <body>
   <nav>
-     <a onclick="javascript:history.back();"><i class="bi bi-chevron-left"></i></a>
-     <span>쿠폰함</span>
-     <a href="">
-        <i class="bi bi-x-lg"></i>
-     </a>
+     <a onclick="javascript:history.back();"><i class="bi bi-x-circle"></i></a>
+     <span>쿠폰사용</span>
+     <a href=""></a>
   </nav>
   <div class="searchsection">
      <div class="searchBtn">
@@ -42,44 +40,28 @@
 
 
 <div class="thumbnailWrap">
-   <div class="tabBtnWrap">
-     <button  onclick="location.href='myinfocoupon.html'">사용가능</button>
-     <button onclick="location.href='myinfocouponoff.html'">사용완료</button>
-   </div>
-   <section class="coupon">
-      <article>
-         <div>
-            <h6>가온힐 조헤어 가산점</h6>
-            <h2>코로나 극복 이벤트</h2>
-            <h5>10,000원 할인</h5>
-            <p>※ 5만원 이상 결제 시 사용가능 ※ 기간: 2021.00.00 ~ 00.00 까지</p>
-         </div>
-         <div>
-            <a href="myinfocoupon-view.html">
-               <!-- <i class="bi bi-download"></i> -->
-               <h2 onclick="location.href=''">사용하기</h2>
-            </a>
-         </div>
-      </article>
+   <section class="couponconfirmWrap">
+     <div class="couponconfirm">
+       <div class="col">
+         <i class="bi bi-eye-slash" style="font-size: 3em;"></i>
+       </div>
+       <div class="col">
+           <p>보유쿠폰이 없습니다.</p>
+       </div>
+     </div>
    </section>
-   <section class="coupon">
-      <article>
-         <div>
-            <h6>가온힐 조헤어 가산점</h6>
-            <h2>코로나 극복 이벤트</h2>
-            <h5>10,000원 할인</h5>
-            <p>※ 5만원 이상 결제 시 사용가능 ※ 기간: 2021.00.00 ~ 00.00 까지</p>
-         </div>
-         <div>
-            <a href="myinfocoupon-none.html">
-               <!-- <i class="bi bi-download"></i> -->
-               <h2 onclick="couponCheck();">사용하기</h2>
-            </a>
-         </div>
-      </article>
-   </section>
-</div>
 
+</div>
+<script>
+function couponCheck() {
+     if (confirm("쿠폰을 사용하시겠습니까? 사용한 쿠폰은 재사용이 불가능합니다.") == true){
+         // document.removefrm.submit();
+          location.href='myinfocouponoff.html';
+     }else{
+         return false;
+     }
+}
+</script>
 <div class="height"></div>
 <footer class="bottomNav">
   <div class="btns">
@@ -112,7 +94,5 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/script.js"></script>
-
-
 </body>
 </html>
