@@ -4,7 +4,7 @@ section {
   background: #FDE7CC;
 }
 .myinfoBodyWrap {
-  height: 100vh;
+  padding-bottom: 5em;
 }
 .myinfoWrap {
   display: flex;
@@ -30,7 +30,6 @@ section {
 .btn-mainWrap {
   display: flex;
   justify-content: center;
-  // padding: 0 1em;
   margin-bottom: 10px;
 }
 .btn-main {
