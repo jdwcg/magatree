@@ -30,8 +30,12 @@ section { background: #FDE7CC; }
 .myinfoupdateBtnBool button { background: #ddd; }
 .myinfoupdateBtnBool button:not(:last-child) { margin-right: 10px; }
 
-.thumbnailWrap .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em; }
-.thumbnailWrap .tabBtnWrap button { background: #fff; width: 150px; }
-.thumbnailWrap .tabBtnWrap button:not(:last-child) { margin-right: 10px; }
+.thumbnailWrap .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em 0 2em; }
+.thumbnailWrap .tabBtnWrap > button { cursor: pointer; background: #ddd; width: 150px; }
+.thumbnailWrap .tabBtnWrap > button:not(:last-child) { margin-right: 10px; background: #e76666; color: #fff; }
+
+.thumbnailWrapoff .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em 0 2em; }
+.thumbnailWrapoff .tabBtnWrap > button { cursor: pointer; background: #e76666; color: #fff; width: 150px; }
+.thumbnailWrapoff .tabBtnWrap > button:not(:last-child) { margin-right: 10px; background: #ddd; color: #222; }
 
 /*# sourceMappingURL=myinfo.css.map */

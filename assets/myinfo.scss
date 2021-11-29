@@ -84,13 +84,37 @@ section {
   .tabBtnWrap {
     display: flex;
     justify-content: center;
-    margin: 1em;
-    button {
-      background: #fff;
+    margin: 1em 0 2em;
+    > button {
+      cursor: pointer;
+      background: #ddd;
       width: 150px;
       &:not(:last-child) {
         margin-right: 10px;
+        background: #e76666; color: #fff;
       }
+    }
+  }
+}
+.thumbnailWrapoff {
+  .tabBtnWrap {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 2em;
+    > button {
+      cursor: pointer;
+      background: #e76666; color: #fff;
+      width: 150px;
+      &:not(:last-child) {
+        margin-right: 10px;
+        background: #ddd; color: #222;
+      }
+    }
+  }
+}
+.couponoff {
+  > article {
+    > div {
     }
   }
 }
