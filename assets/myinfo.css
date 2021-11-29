@@ -38,4 +38,6 @@ section { background: #FDE7CC; }
 .thumbnailWrapoff .tabBtnWrap > button { cursor: pointer; background: #e76666; color: #fff; width: 150px; }
 .thumbnailWrapoff .tabBtnWrap > button:not(:last-child) { margin-right: 10px; background: #ddd; color: #222; }
 
+.couponoff > article > div { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+
 /*# sourceMappingURL=myinfo.css.map */

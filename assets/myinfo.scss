@@ -115,6 +115,7 @@ section {
 .couponoff {
   > article {
     > div {
+      filter: grayscale(100%);
     }
   }
 }
