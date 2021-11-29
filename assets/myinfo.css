@@ -30,4 +30,6 @@ section { background: #FDE7CC; }
 .myinfoupdateBtnBool button { background: #ddd; }
 .myinfoupdateBtnBool button:not(:last-child) { margin-right: 10px; }
 
+.thumbnailWrap .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
 /*# sourceMappingURL=myinfo.css.map */
