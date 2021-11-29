@@ -20,4 +20,14 @@ section { background: #FDE7CC; }
 .btn-main:not(:last-child) { margin-right: 10px; }
 .btn-main hr { border: none; background: #F4E3E1; height: 1px; margin: .7rem 0; }
 
+.myinfoupdate { background: #f5f5f5; }
+.myinfoupdate input { background: #fff; }
+
+.myinfoupdateBtn { margin-top: 1em; }
+.myinfoupdateBtn button { background: #e76666; color: #fff; }
+
+.myinfoupdateBtnBool { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.myinfoupdateBtnBool button { background: #ddd; }
+.myinfoupdateBtnBool button:not(:last-child) { margin-right: 10px; }
+
 /*# sourceMappingURL=myinfo.css.map */

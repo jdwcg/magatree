@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/myinfo.css">
+  <link rel="stylesheet" href="store_owner/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+     <a onclick="javascript:history.back();"><i class="bi bi-chevron-left"></i></a>
+     <span>내정보 수정</span>
+     <span class="material-icons" id="popupBtn">save</span>
+  </nav>
+  <div class="searchsection">
+     <div class="searchBtn">
+        <input type="text" placeholder="검색어를 입력하세요.">
+        <input type="submit" value="검색">
+     </div>
+     <div class="keyword">
+        <h6><a href="">키워드</a></h6>
+        <h6><a href="">키워드키워드</a></h6>
+        <h6><a href="">키워드</a></h6>
+     </div>
+     <div class="searchResult">
+        <p>
+  <!-- 관련검색어 -->
+  <pre>
+  검색 시 연관검색어 elit.
+  관련검색어 노출 nihil, perspiciatis
+  nulla 관련검색어 sint voluptates,
+  provident quae 관련검색어
+  </pre>
+        </p>
+     </div>
+  </div>
+  <nav class="navHeight"></nav>
+
+
+  <section class="myinfoupdate">
+    <form action="">
+      <input type="text" placeholder="로그인ID">
+      <input type="password" placeholder="비밀번호(6~12자 영문,숫자 조합)">
+      <input type="password" placeholder="비밀번호 확인(6~12자 영문,숫자 조합)">
+      <input type="text" placeholder="홍길동">
+      <input type="text" placeholder="010-0000-0000">
+    </form>
+    <p class="myinfoupdateBtn">
+      <button id="popupBtn">저장하기</button>
+    </p>
+    <p class="myinfoupdateBtnBool">
+      <button class="logout" onclick="removeCheck();">로그아웃</button>
+      <button onclick="removeCheck2();">회원탈퇴</button>
+    </p>
+
+<script>
+function removeCheck() {
+     if (confirm("로그아웃 하시겠습니까? 로그아웃 시 로그인 페이지로 이동합니다.") == true){
+         // document.removefrm.submit();
+          location.href='index.html';
+     }else{
+         return false;
+     }
+}
+function removeCheck2() {
+     if (confirm("탈퇴 하시겠습니까? 탈퇴 시 모든 정보는 삭제되며, 동일한 아이디로 재가입은 불가능합니다.") == true){
+         // document.removefrm.submit();
+          location.href='index.html';
+     }else{
+         return false;
+     }
+}
+</script>
+  </section>
+
+<footer class="bottomNav">
+  <div class="btns">
+    <a href="index.html">
+      <span class="btnIcon btnIcon1">
+        <i class="bi bi-house-door"></i>
+        <!-- <i class="bi bi-house-door-fill"></i> -->
+      </span>
+      <span>홈</span>
+    </a>
+    <a href="store.html">
+      <span class="btnIcon btnIcon2">
+        <i class="bi bi-door-open"></i>
+        <!-- <i class="bi bi-door-open-fill"></i> -->
+      </span>
+      <span>매장</span>
+    </a>
+    <a href="goods.html">
+      <span class="btnIcon btnIcon3">
+        <i class="bi bi-bag"></i>
+        <!-- <i class="bi bi-bag-fill"></i> -->
+      </span>
+      <span>상품</span>
+    </a>
+    <a href="myinfo.html">
+      <span class="btnIcon btnIcon4">
+        <!-- <i class="bi bi-person"></i> -->
+        <i class="bi bi-person-fill"></i>
+      </span>
+      <span>내정보</span>
+    </a>
+  </div>
+</footer>
+
+
+<!-- 팝업 -->
+<section class="popup" style="display: none;">
+  <i class="bi bi-x-lg"></i>
+  <span>
+    <p><strong>수정된 정보를 저장하시겠습니까?</strong></p>
+    <p>수정한 정보로 저장됩니다.</p>
+  </span>
+  <div>
+    <button  id="cancelBtn">아니오</button>
+    <button type="submit" onclick="location.href='myinfoupdate.html'">예</button>
+  </div>
+</section>
+<section class="popupBg" style="display: none;"></section>
+<!-- 팝업 End -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/script.js"></script>
+<script src="store_owner/script/popup.js"></script>
+</body>
+</html>
