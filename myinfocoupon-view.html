@@ -11,12 +11,9 @@
 </head>
 <body>
   <nav>
-     <a onclick="javascript:history.back();"><i class="bi bi-chevron-left"></i></a>
-     <span>쿠폰함</span>
-     <a href="">
-        <i class="bi bi-search"></i>
-        <i class="bi bi-x-lg"></i>
-     </a>
+     <a onclick="javascript:history.back();"><i class="bi bi-x-circle"></i></a>
+     <span>쿠폰사용</span>
+     <a href=""></a>
   </nav>
   <div class="searchsection">
      <div class="searchBtn">
@@ -55,7 +52,7 @@
          <div>
             <a href="">
                <!-- <i class="bi bi-download"></i> -->
-               <h2 onclick="couponCheck();">사용가능</h2>
+               <h2>사용가능</h2>
             </a>
          </div>
       </article>
@@ -70,16 +67,27 @@
        </p>
      </div>
    </section>
-   <section>
-     <button>매장직원 확인</button>
+   <section class="couponconfirmWrap">
+     <div class="couponconfirm">
+       <div class="col">
+         <button  onclick="couponCheck();">매장직원 확인</button>
+       </div>
+       <div class="col">
+         <ul>
+           <h3>매장 직원용 확인 버튼입니다.</h3>
+           <li>버튼을 누르면 쿠폰 사용 완료 처리됩니다. </li>
+           <li>사용한 쿠폰은 재발급이 불가능하니 매장 직원 외에는 확인 버튼을 누르지 마세요.</li>
+         </ul>
+       </div>
+     </div>
    </section>
 
 </div>
 <script>
 function couponCheck() {
-     if (confirm("쿠폰을 받으시겠습니까? 받은 쿠폰은 쿠폰함에 저장됩니다.") == true){
+     if (confirm("쿠폰을 사용하시겠습니까? 사용한 쿠폰은 재사용이 불가능합니다.") == true){
          // document.removefrm.submit();
-          location.href='myinfostore-detail.html';
+          location.href='myinfocouponoff.html';
      }else{
          return false;
      }
@@ -117,21 +125,5 @@ function couponCheck() {
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/script.js"></script>
-
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-<script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-  $(document).on('ready', function() {
-
-    $(".lazy").slick({
-      slidesToShow : 1,
-      infinite: true,
-      dots: true,
-      autoplay: true,
-      draggable : true,
-    });
-  });
-</script>
-
 </body>
 </html>

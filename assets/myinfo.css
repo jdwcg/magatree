@@ -44,4 +44,11 @@ section { background: #FDE7CC; }
 .couponcaution > div h4 { padding: .4rem 0; }
 .couponcaution > div p { font-size: 14px; }
 
+.couponconfirmWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 0 auto; }
+.couponconfirmWrap > .couponconfirm .col { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 1rem 1em; }
+.couponconfirmWrap > .couponconfirm .col button { background: #e76666; color: #fff; width: auto; cursor: pointer; padding: 12px 24px; }
+.couponconfirmWrap > .couponconfirm .col:last-child { padding: 0 1.4em; width: 300px; word-break: keep-all; }
+@media (max-width: 300px) { .couponconfirmWrap > .couponconfirm .col:last-child { width: 100%; } }
+.couponconfirmWrap > .couponconfirm .col:last-child ul li { list-style: disc; font-size: 14px; }
+
 /*# sourceMappingURL=myinfo.css.map */
