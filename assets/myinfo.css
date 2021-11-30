@@ -9,7 +9,7 @@ section { background: #FDE7CC; }
 .myinfoWrap { padding-bottom: 0; }
 .myinfoWrap .myinfo { margin-top: 1rem; position: relative; background: #fff; width: 100%; border-radius: 8px; padding: 1.4rem 1em; }
 @media (min-width: 310px) { .myinfoWrap .myinfo { max-width: 310px; } }
-.myinfoWrap .myinfo .myinfoCardWrap .myinfoCard { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.myinfoWrap .myinfo .myinfoCardWrap .myinfoCard { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
 .myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 1rem; }
 .myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto { padding-right: 10px; }
 .myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto > i { font-size: 2rem; color: #ddd; }

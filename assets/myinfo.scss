@@ -21,7 +21,7 @@ section {
     .myinfoCardWrap {
 
       .myinfoCard {
-          display: flex; justify-content: center;
+          display: flex; justify-content: flex-start;
         .myinfotxt {
           display: flex; padding:1rem;
           .myinfofoto { padding-right: 10px; >i{font-size: 2rem; color: #ddd;}}
