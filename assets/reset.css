@@ -56,8 +56,8 @@ h6 { font-size: 14px; font-weight: 500; }
 .coupon > article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: .4rem 0; }
 @media (max-width: 300px) { .coupon > article > div { padding: 0; } }
 .coupon > article > div:nth-child(1) { background: url("https://raw.githubusercontent.com/jdwcg/megatree/master/assets/imgs/texture.jpg"); position: relative; border-radius: 1.4rem 0 0 1.4rem; padding: 1rem 1.9em; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
-.coupon > article > div:nth-child(1):after { content: ''; position: absolute; z-index: 4; right: -9px; top: 38px; width: 14px; height: 14px; background: #f5f5f5; border-radius: 50%; }
-.coupon > article > div:nth-child(1):before { content: ''; position: absolute; z-index: 4; right: -9px; bottom: 38px; width: 14px; height: 14px; background: #f5f5f5; border-radius: 50%; }
+.coupon > article > div:nth-child(1):after { content: ''; position: absolute; z-index: 4; right: -9px; top: 42px; width: 14px; height: 14px; background: #f5f5f5; border-radius: 50%; }
+.coupon > article > div:nth-child(1):before { content: ''; position: absolute; z-index: 4; right: -9px; bottom: 42px; width: 14px; height: 14px; background: #f5f5f5; border-radius: 50%; }
 .coupon > article > div:nth-child(1) h2, .coupon > article > div:nth-child(1) h3, .coupon > article > div:nth-child(1) h5 { word-break: keep-all; text-align: left; }
 .coupon > article > div:nth-child(1) > h5 { color: tomato; }
 .coupon > article > div:nth-child(1) p { word-break: keep-all; font-size: 12px; }

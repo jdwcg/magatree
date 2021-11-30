@@ -149,14 +149,14 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
             &:after {
                content:'';
                position: absolute; z-index: 4;
-               right: -9px; top: 38px;
+               right: -9px; top: 42px;
                width: 14px;height: 14px;background: #f5f5f5;
                border-radius: 50%;
             }
             &:before {
                content:'';
                position: absolute; z-index: 4;
-               right: -9px; bottom: 38px;
+               right: -9px; bottom: 42px;
                width: 14px;height: 14px;background: #f5f5f5;
                border-radius: 50%;
             }
