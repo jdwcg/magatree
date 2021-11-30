@@ -10,22 +10,34 @@ section {
   display: flex;
   justify-content: center;
 }
-.myinfo {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 2em;
-  button {
-    margin: 12px 0 0;
-    padding: 6px 14px;
+.myinfoWrap {
+  padding-bottom: 0;
+  .myinfo {
+    margin-top: 1rem;
+    position: relative;
     background: #fff;
-    width: auto;
-  }
-  > span {
-    padding:0 1em;
-    > i {
-      font-size: 40px; color: #999;
+    width: 100%; border-radius: 8px; padding: 1.4rem 1em;
+    @media(min-width: 310px) {max-width: 310px;}
+    .myinfoCardWrap {
+
+      .myinfoCard {
+          display: flex; justify-content: center;
+        .myinfotxt {
+          display: flex; padding:1rem;
+          .myinfofoto { padding-right: 10px; >i{font-size: 2rem; color: #999;}}
+          .myinfoprofile {display: flex;justify-content: center; flex-direction: column; font-size: 14px; text-align: left;}
+        }
+
+      }
+
+
     }
+    .myinfoset {
+      position: absolute; right: 10px; top: 10px;
+    }
+
   }
+
 }
 .btn-mainWrap {
   display: flex;
