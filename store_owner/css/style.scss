@@ -1,8 +1,9 @@
 @charset "UTF-8";
 // 쿠폰관리
 .coupon {
+  width: 100%;
   > article {
-    margin-top: 1rem;
+    @media(min-width:480px) {width: 480px; margin:0 auto;}
     > .coupon-desc {
       position: relative;
       > a {
