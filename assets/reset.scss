@@ -130,6 +130,8 @@ header {
   overflow: hidden;
    padding: 0 1.45em 1rem;
      @media(max-width:300px) {padding: 0 1em;}
+     @media(min-width:480px) {width:480px;}
+
    > article {
 
       display: flex;
