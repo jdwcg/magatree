@@ -14,7 +14,7 @@ section { background: #FDE7CC; }
 .myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto { padding-right: 10px; }
 .myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto > i { font-size: 2rem; color: #999; }
 .myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfoprofile { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: 14px; text-align: left; }
-.myinfoWrap .myinfo .myinfoset { position: absolute; right: 10px; top: 10px; }
+.myinfoWrap .myinfo .myinfoset { font-size: 18px; position: absolute; right: 10px; top: 10px; color: #222; }
 
 .btn-mainWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 10px; }
 
