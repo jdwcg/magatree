@@ -48,7 +48,7 @@ section { background: #FDE7CC; }
 .couponoff > article > div { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
 .couponcaution { max-width: 480px; padding: 0 1em 0; }
-.couponcaution > div { background: #f9f9f9; border: 1px dashed #ccc; padding: 1.4rem; margin: 0 .4em 1rem; border-radius: 1.2rem; }
+.couponcaution > div { background: #fff; border: 1px dashed #ccc; padding: 1.4rem; margin: 0 .4em 1rem; border-radius: 1.2rem; }
 .couponcaution > div h4 { padding: .4rem 0; }
 .couponcaution > div p { font-size: 14px; }
 
