@@ -2,19 +2,20 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
 section { background: #FDE7CC; }
 
-.myinfoBodyWrap { padding-bottom: 5em; }
+.myinfoBodyWrap { padding-bottom: 5em; background: url("/assets/imgs/mainbg.png") #FDE7CC no-repeat; background-size: 100% 100%; height: 240px; }
 
 .myinfoWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 .myinfoWrap { padding-bottom: 0; }
-.myinfoWrap .myinfo { margin-top: 1rem; position: relative; background: #fff; width: 100%; border-radius: 8px; padding: 1.4rem 1em; }
-@media (min-width: 310px) { .myinfoWrap .myinfo { max-width: 310px; } }
-.myinfoWrap .myinfo .myinfoCardWrap .myinfoCard { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
-.myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 1rem; }
-.myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto { padding-right: 10px; }
-.myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto > i { font-size: 2rem; color: #ddd; }
-.myinfoWrap .myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfoprofile { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: 14px; text-align: left; }
-.myinfoWrap .myinfo .myinfoset { font-size: 18px; position: absolute; right: 10px; top: 10px; color: #222; }
+
+.myinfo { padding-top: 2rem; position: relative; background: #fff; margin: 0 auto; margin-bottom: 1em; width: 100%; border-radius: 8px; padding: 1.4rem 1em; }
+@media (min-width: 310px) { .myinfo { max-width: 310px; } }
+.myinfo .myinfoCardWrap .myinfoCard { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.myinfo .myinfoCardWrap .myinfoCard .myinfotxt { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 1rem; }
+.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto { padding-right: 10px; }
+.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto > i { font-size: 2rem; color: #ddd; }
+.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfoprofile { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: 14px; text-align: left; }
+.myinfo .myinfoset { font-size: 18px; position: absolute; right: 10px; top: 10px; color: #222; }
 
 .btn-mainWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 10px; }
 

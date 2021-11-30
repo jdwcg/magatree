@@ -5,6 +5,9 @@ section {
 }
 .myinfoBodyWrap {
   padding-bottom: 5em;
+  background: url('/assets/imgs/mainbg.png') #FDE7CC no-repeat;
+  background-size: 100% 100%;
+  height: 240px;
 }
 .myinfoWrap {
   display: flex;
@@ -12,27 +15,30 @@ section {
 }
 .myinfoWrap {
   padding-bottom: 0;
-  .myinfo {
-    margin-top: 1rem;
-    position: relative;
-    background: #fff;
-    width: 100%; border-radius: 8px; padding: 1.4rem 1em;
-    @media(min-width: 310px) {max-width: 310px;}
-    .myinfoCardWrap {
 
-      .myinfoCard {
-          display: flex; justify-content: flex-start;
-        .myinfotxt {
-          display: flex; padding:1rem;
-          .myinfofoto { padding-right: 10px; >i{font-size: 2rem; color: #ddd;}}
-          .myinfoprofile {display: flex;justify-content: center; flex-direction: column; font-size: 14px; text-align: left;}
-        }
+
+}
+
+.myinfo {
+  padding-top: 2rem;
+  position: relative;
+  background: #fff; margin: 0 auto;
+  margin-bottom: 1em;
+  width: 100%; border-radius: 8px; padding: 1.4rem 1em;
+  @media(min-width: 310px) {max-width: 310px;}
+  .myinfoCardWrap {
+
+    .myinfoCard {
+        display: flex; justify-content: flex-start;
+      .myinfotxt {
+        display: flex; padding:1rem;
+        .myinfofoto { padding-right: 10px; >i{font-size: 2rem; color: #ddd;}}
+        .myinfoprofile {display: flex;justify-content: center; flex-direction: column; font-size: 14px; text-align: left;}
       }
     }
-    .myinfoset {
-      font-size: 18px; position: absolute; right: 10px; top: 10px; color:#222;
-    }
-
+  }
+  .myinfoset {
+    font-size: 18px; position: absolute; right: 10px; top: 10px; color:#222;
   }
 
 }
