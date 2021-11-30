@@ -9,16 +9,16 @@
 
 .coupon-desc > textarea { padding: 1rem; border: 1px solid #ddd; width: 100%; border-radius: 6px; }
 
-.myInfoSec .heading { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; word-break: keep-all; background: #e76666; border-radius: 8px; padding: 0 1em; }
+.myInfoSec .heading { max-width: 480px; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; word-break: keep-all; background: #e76666; border-radius: 8px; padding: 0 1em; }
 .myInfoSec .heading i { color: #fff; font-size: 20px; padding-right: .4rem; }
 .myInfoSec .heading p { color: #fff; }
 .myInfoSec .heading button { cursor: pointer; width: auto; background: #fff; padding: 10px; margin: 1rem 0; border-radius: 6px; }
-.myInfoSec > ul { padding: .4rem 0; }
+.myInfoSec > ul { max-width: 480px; margin: 0 auto; padding: .4rem 0; }
 .myInfoSec > ul > li { background: #fff; border-radius: 8px; margin: 1rem 0; }
 .myInfoSec > ul > li a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 1rem 1em; }
 
-.myInfoSec-update form { background: #fff; padding: 1rem; border-radius: 8px; }
-.myInfoSec-update form > input { border-radius: 6px; }
+.myInfoSec-update form { border-radius: 8px; }
+.myInfoSec-update form > input { border-radius: 6px; background: #fff; }
 .myInfoSec-update #popupBtn { background: #e76666; color: #fff; font-weight: 500; margin-top: 2rem; }
 .myInfoSec-update .logout { background: #ddd; font-weight: 500; margin-top: 1rem; cursor: pointer; }
 
@@ -28,7 +28,7 @@
 
 @media (min-width: 480px) { .popupBg { max-width: none; } }
 
-.terms div { background: #fff; padding: .4rem 1em 1.5rem; border-radius: 8px; }
+.terms div { max-width: 480px; margin: 0 auto; background: #fff; padding: .4rem 1em 1.5rem; border-radius: 8px; }
 .terms div h3 { margin-top: 1rem; }
 
 .setting ul li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 1rem 1em; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }

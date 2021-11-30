@@ -41,40 +41,42 @@
 
 
   <section class="myinfoupdate">
-    <form action="">
-      <input type="text" placeholder="로그인ID">
-      <input type="password" placeholder="비밀번호(6~12자 영문,숫자 조합)">
-      <input type="password" placeholder="비밀번호 확인(6~12자 영문,숫자 조합)">
-      <input type="text" placeholder="홍길동">
-      <input type="text" placeholder="010-0000-0000">
-    </form>
-    <p class="myinfoupdateBtn">
-      <button id="popupBtn">저장하기</button>
-    </p>
-    <p class="myinfoupdateBtnBool">
-      <button class="logout" onclick="removeCheck();">로그아웃</button>
-      <button onclick="removeCheck2();">회원탈퇴</button>
-    </p>
-
-<script>
-function removeCheck() {
-     if (confirm("로그아웃 하시겠습니까? 로그아웃 시 로그인 페이지로 이동합니다.") == true){
-         // document.removefrm.submit();
-          location.href='index.html';
-     }else{
-         return false;
-     }
-}
-function removeCheck2() {
-     if (confirm("탈퇴 하시겠습니까? 탈퇴 시 모든 정보는 삭제되며, 동일한 아이디로 재가입은 불가능합니다.") == true){
-         // document.removefrm.submit();
-          location.href='index.html';
-     }else{
-         return false;
-     }
-}
-</script>
+      <div style="margin: 0 auto; max-width: 480px">
+        <form action="" >
+          <input type="text" placeholder="로그인ID">
+          <input type="password" placeholder="비밀번호(6~12자 영문,숫자 조합)">
+          <input type="password" placeholder="비밀번호 확인(6~12자 영문,숫자 조합)">
+          <input type="text" placeholder="홍길동">
+          <input type="text" placeholder="010-0000-0000">
+        </form>
+        <p class="myinfoupdateBtn">
+          <button id="popupBtn">저장하기</button>
+        </p>
+        <p class="myinfoupdateBtnBool">
+          <button class="logout" onclick="removeCheck();">로그아웃</button>
+          <button onclick="removeCheck2();">회원탈퇴</button>
+        </p>
+      </div>
   </section>
+
+  <script>
+  function removeCheck() {
+       if (confirm("로그아웃 하시겠습니까? 로그아웃 시 로그인 페이지로 이동합니다.") == true){
+           // document.removefrm.submit();
+            location.href='index.html';
+       }else{
+           return false;
+       }
+  }
+  function removeCheck2() {
+       if (confirm("탈퇴 하시겠습니까? 탈퇴 시 모든 정보는 삭제되며, 동일한 아이디로 재가입은 불가능합니다.") == true){
+           // document.removefrm.submit();
+            location.href='index.html';
+       }else{
+           return false;
+       }
+  }
+  </script>
 
 <footer class="bottomNav">
   <div class="btns">

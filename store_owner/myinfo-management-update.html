@@ -25,28 +25,30 @@
   <nav class="navHeight"></nav>
 
 <section class="myInfoSec-update">
-  <form action="">
-    <input type="text" placeholder="로그인ID">
-    <input type="password" placeholder="비밀번호(6~12자 영문,숫자 조합)">
-    <input type="password" placeholder="비밀번호 확인(6~12자 영문,숫자 조합)">
-    <input type="text" placeholder="홍길동">
-    <input type="text" placeholder="010-0000-0000">
-  </form>
-  <button id="popupBtn">저장하기</button>
-  <button class="logout" onclick="removeCheck();">로그아웃</button>
+  <div style="margin: 0 auto; max-width: 480px">
+    <form action="">
+      <input type="text" placeholder="로그인ID">
+      <input type="password" placeholder="비밀번호(6~12자 영문,숫자 조합)">
+      <input type="password" placeholder="비밀번호 확인(6~12자 영문,숫자 조합)">
+      <input type="text" placeholder="홍길동">
+      <input type="text" placeholder="010-0000-0000">
+    </form>
+    <button id="popupBtn">저장하기</button>
+    <button class="logout" onclick="removeCheck();">로그아웃</button>
+  </div>
 
-  <script>
-    function removeCheck() {
-   if (confirm("로그아웃 하시겠습니까? 로그아웃 시 로그인 페이지로 이동합니다.") == true){
-       // document.removefrm.submit();
-        location.href='./index.html';
-   }else{
-       return false;
-   }
-  }
-  </script>
+
 </section>
-
+<script>
+  function removeCheck() {
+ if (confirm("로그아웃 하시겠습니까? 로그아웃 시 로그인 페이지로 이동합니다.") == true){
+     // document.removefrm.submit();
+      location.href='./index.html';
+ }else{
+     return false;
+ }
+}
+</script>
 <div class="height"></div>
 <footer class="bottomNav">
   <div class="btns">
