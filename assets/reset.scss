@@ -130,22 +130,23 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
 }
 
 .coupon {
+
   overflow: hidden;
    padding: 0 1.45em 1rem;
      @media(max-width:300px) {padding: 0 1em;}
      @media(min-width:480px) {width:480px;}
 
    > article {
-
       display: flex;
       justify-content: space-between;
       padding: .4rem 0;
       > div {
+
         @media(max-width:300px) {padding: 0;}
          &:nth-child(1) {
-           background: #fde7cc !important;
+           // background: #fde7cc !important;
+            background: url('/assets/imgs/texture.jpg');
             position: relative;
-            background: #fff;
             border-radius: 1.4rem 0 0 1.4rem;
             padding: 1rem 1.9em;
             flex: 1;
@@ -160,7 +161,7 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
             }
          }
          &:nth-child(2) {
-           background: #fde7cc !important;
+           background: url('/assets/imgs/texture.jpg');
             position: relative;
             &:after {
                content:'';
@@ -182,7 +183,6 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
             align-items: center;
             border-radius: 0 1.4rem 1.4rem 0;
             padding: 1rem 2em;
-            background: #fff;
             a {
                display: flex;
                flex-direction: column;
