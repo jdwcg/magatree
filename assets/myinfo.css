@@ -40,15 +40,18 @@ section { background: #FDE7CC; }
 
 .couponoff > article > div { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
-.couponcaution > div { background: #fff; padding: 1.45rem; border-radius: 6px; margin: 0 .45em; }
+.couponcaution { max-width: 480px; padding: 0 1em 0; }
+.couponcaution > div { background: #f9f9f9; border: 1px dashed #ccc; padding: 1.4rem; margin: 0 .4em 1rem; border-radius: 1.2rem; }
 .couponcaution > div h4 { padding: .4rem 0; }
 .couponcaution > div p { font-size: 14px; }
 
 .couponconfirmWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 0 auto; }
-.couponconfirmWrap > .couponconfirm .col { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 1rem 1em; }
-.couponconfirmWrap > .couponconfirm .col button { background: #e76666; color: #fff; width: auto; cursor: pointer; padding: 12px 24px; }
-.couponconfirmWrap > .couponconfirm .col:last-child { padding: 0 1.4em; width: 300px; word-break: keep-all; }
-@media (max-width: 300px) { .couponconfirmWrap > .couponconfirm .col:last-child { width: 100%; } }
+@media (min-width: 480px) { .couponconfirmWrap { width: 480px; } }
+.couponconfirmWrap > .couponconfirm .col { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+@media (min-width: 480px) { .couponconfirmWrap > .couponconfirm .col { padding: 0 1em; } }
+.couponconfirmWrap > .couponconfirm .col button { background: #e76666; color: #fff; cursor: pointer; margin: 0; font-size: 16px; font-weight: 500; padding: 14px 24px; margin: 0 .4em; }
+.couponconfirmWrap > .couponconfirm .col:last-child { padding: 0 1.4em 0 2.2em; word-break: keep-all; padding-top: 1em; }
+@media (min-width: 480px) { .couponconfirmWrap > .couponconfirm .col:last-child { width: 480px; } }
 .couponconfirmWrap > .couponconfirm .col:last-child ul li { list-style: disc; font-size: 14px; }
 
 /*# sourceMappingURL=myinfo.css.map */
