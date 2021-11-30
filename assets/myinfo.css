@@ -35,12 +35,14 @@ section { background: #FDE7CC; }
 .myinfoupdateBtnBool button { background: #ddd; }
 .myinfoupdateBtnBool button:not(:last-child) { margin-right: 10px; }
 
-.thumbnailWrap .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em 0 2em; }
-.thumbnailWrap .tabBtnWrap > button { cursor: pointer; background: #ddd; width: 150px; }
+.thumbnailWrap .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em 0 2em; padding: 0 1.4em; }
+@media (min-width: 480px) { .thumbnailWrap .tabBtnWrap { width: 480px; margin: 1em auto; } }
+.thumbnailWrap .tabBtnWrap > button { cursor: pointer; background: #ddd; width: 100%; }
 .thumbnailWrap .tabBtnWrap > button:not(:last-child) { margin-right: 10px; background: #e76666; color: #fff; }
 
-.thumbnailWrapoff .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em 0 2em; }
-.thumbnailWrapoff .tabBtnWrap > button { cursor: pointer; background: #e76666; color: #fff; width: 150px; }
+.thumbnailWrapoff .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em 0 2em; padding: 0 1.4em; }
+@media (min-width: 480px) { .thumbnailWrapoff .tabBtnWrap { width: 480px; margin: 1em auto; } }
+.thumbnailWrapoff .tabBtnWrap > button { cursor: pointer; background: #e76666; color: #fff; width: 100%; }
 .thumbnailWrapoff .tabBtnWrap > button:not(:last-child) { margin-right: 10px; background: #ddd; color: #222; }
 
 .couponoff > article > div { -webkit-filter: grayscale(100%); filter: grayscale(100%); }

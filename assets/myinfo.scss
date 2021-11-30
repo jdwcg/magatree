@@ -96,11 +96,12 @@ section {
   .tabBtnWrap {
     display: flex;
     justify-content: center;
-    margin: 1em 0 2em;
+    margin: 1em 0 2em; padding:0 1.4em;
+    @media(min-width: 480px) {width: 480px; margin: 1em auto;}
     > button {
       cursor: pointer;
       background: #ddd;
-      width: 150px;
+      width: 100%;
       &:not(:last-child) {
         margin-right: 10px;
         background: #e76666; color: #fff;
@@ -112,11 +113,12 @@ section {
   .tabBtnWrap {
     display: flex;
     justify-content: center;
-    margin: 1em 0 2em;
+    margin: 1em 0 2em; padding:0 1.4em;
+    @media(min-width: 480px) {width: 480px; margin: 1em auto;}
     > button {
       cursor: pointer;
       background: #e76666; color: #fff;
-      width: 150px;
+      width: 100%;
       &:not(:last-child) {
         margin-right: 10px;
         background: #ddd; color: #222;
