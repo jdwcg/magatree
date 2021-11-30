@@ -32,12 +32,14 @@ header { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; 
 .megaImg { width: 100%; height: 70px; }
 
 .thumbnailWrap > h3 { font-weight: 500; padding: 10px 2em; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+@media (min-width: 480px) { .thumbnailWrap > h3 { width: 480px; margin: 0 auto; } }
 .thumbnailWrap > h3 span > a { font-size: 14px; padding: 4px 12px; border-radius: 3px; border: none; background: #fff; }
 
 .thumbnailWrap { padding: 1rem 0; }
 
 .thumbnail { padding: 0 1.45em; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 @media (max-width: 300px) { .thumbnail { padding: 0 1em; } }
+@media (min-width: 480px) { .thumbnail { width: 480px; } }
 .thumbnail article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
 .thumbnail article:not(:last-child) { margin-right: 14px; }
 .thumbnail article div:first-child { height: 120px; background: #aaa; border-radius: 8px 8px 0 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; }
