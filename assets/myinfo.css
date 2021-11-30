@@ -59,6 +59,7 @@ section { background: #FDE7CC; }
 .couponconfirmWrap > .couponconfirm .col button { background: #e76666; color: #fff; cursor: pointer; margin: 0; font-size: 16px; font-weight: 500; padding: 14px 24px; margin: 0 .4em; }
 .couponconfirmWrap > .couponconfirm .col:last-child { padding: 0 1.4em 0 2.2em; word-break: keep-all; padding-top: 1em; }
 @media (min-width: 480px) { .couponconfirmWrap > .couponconfirm .col:last-child { width: 480px; } }
-.couponconfirmWrap > .couponconfirm .col:last-child ul li { list-style: disc; font-size: 14px; }
+.couponconfirmWrap > .couponconfirm .col:last-child ul h3 { font-size: 12px; color: tomato; }
+.couponconfirmWrap > .couponconfirm .col:last-child ul li { list-style: disc; font-size: 12px; }
 
 /*# sourceMappingURL=myinfo.css.map */
