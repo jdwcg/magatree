@@ -146,6 +146,20 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
            // background: #fde7cc !important;
            background: url('https://raw.githubusercontent.com/jdwcg/megatree/master/assets/imgs/texture.jpg');
             position: relative;
+            &:after {
+               content:'';
+               position: absolute; z-index: 4;
+               right: -9px; top: 38px;
+               width: 14px;height: 14px;background: #f5f5f5;
+               border-radius: 50%;
+            }
+            &:before {
+               content:'';
+               position: absolute; z-index: 4;
+               right: -9px; bottom: 38px;
+               width: 14px;height: 14px;background: #f5f5f5;
+               border-radius: 50%;
+            }
             border-radius: 1.4rem 0 0 1.4rem;
             padding: 1rem 1.9em;
             flex: 1;
@@ -165,15 +179,15 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
             &:after {
                content:'';
                position: absolute;
-               left: -14px; top: -14px;
-               width: 28px;height: 28px;background: #f5f5f5;
+               left: -11px; top: -10px;
+               width: 20px;height: 20px;background: #f5f5f5;
                border-radius: 50%;
             }
             &:before {
                content:'';
                position: absolute;
-               left: -14px; bottom: -14px;
-               width: 28px;height: 28px;background: #f5f5f5;
+               left: -11px; bottom: -10px;
+               width: 20px;height: 20px;background: #f5f5f5;
                border-radius: 50%;
             }
             flex:.4;
