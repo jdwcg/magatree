@@ -102,6 +102,9 @@ div.searchsection {
 
 // 매장 상세
 .thumbnail {
+  @media(min-width: 480px) {
+    width: 480px;
+  }
   article {
     div {
       &:nth-child(2) {
