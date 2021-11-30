@@ -71,6 +71,7 @@
   }
 }
 .goods-desc-Wrap {
+  @media(min-width:480px) {width: 480px; margin: 0 auto;}
   padding: 0 1.45em;
 }
 .goods-desc {

@@ -20,6 +20,7 @@
 .storeView > h4 p { color: #e76666; font-size: 18px; margin: 0; padding: 0; }
 
 .goods-desc-Wrap { padding: 0 1.45em; }
+@media (min-width: 480px) { .goods-desc-Wrap { width: 480px; margin: 0 auto; } }
 
 .goods-desc { background: #fff; border-radius: 8px; padding: 1rem; }
 .goods-desc h3 { padding: 2rem 0 0; }
