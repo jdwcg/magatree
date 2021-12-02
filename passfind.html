@@ -5,23 +5,20 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
    <link rel="stylesheet" href="assets/reset.css">
    <title>megatree</title>
+   <style>.formComponent>form>p{font-size: 14px;padding-bottom: 1rem;}</style>
 </head>
 <body>
 <div class="container">
 <!-- 인풋버튼컨포넌트 -->
 <section class="formComponent">
-  <h1>Magatree <span>TV</span></h1>
+  <h1>비밀번호 찾기</h1>
   <form action="">
+    <p>이메일(로그인ID)로 임시 비밀번호가 전송됩니다.</p>
     <input type="text" placeholder="이메일(로그인ID)">
-    <input type="password" placeholder="비밀번호">
-    <input type="button" onclick="location.href='index.html'" value="로그인">
+    <input type="button" onclick="location.href='passfind-done.html'" value="다음">
+    <input type="button" onclick="alert('일치하는 회원정보가 없습니다.')" value="실패 시">
   </form>
-  <hr>
-  <button onclick="location.href='signup.html'">회원가입</button>
-  <a href="passfind.html">비밀번호찾기</a>
-  <p>※ 아이디 또는 비밀번호를 다시 확인해 주세요.</p>
 </section>
 </div>
-
 </body>
 </html>
