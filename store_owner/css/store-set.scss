@@ -53,13 +53,13 @@
 }
 .selectWrap {
   display: flex; justify-content: center; align-items: center;
-  select {padding: .8rem; border: none; background: #f5f5f5; border-radius: 6px;}
+  select {padding: .75rem; border: none; background: #f5f5f5; border-radius: 6px;}
   select:first-child { margin-right: 10px; }
   select:last-child { margin-left: 10px; }
 }
 .telWrap {
   display: flex;
-  select {flex:.2;}
+  select {flex:.3; margin-top: 4px;}
   input {flex:1;}
 }
 .adressSearchWrap {
