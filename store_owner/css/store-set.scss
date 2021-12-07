@@ -4,7 +4,7 @@
     display: flex;
     margin-top: 1rem;
     .attachImg {
-      position: relative;
+      position: relative; z-index: 4;
       flex:1;
       // background: #fff;
       border: 1px solid #ddd;
