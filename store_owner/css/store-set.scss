@@ -57,6 +57,11 @@
   select:first-child { margin-right: 10px; }
   select:last-child { margin-left: 10px; }
 }
+.telWrap {
+  display: flex;
+  select {flex:.2;}
+  input {flex:1;}
+}
 .adressSearchWrap {
   display: flex;
   input {

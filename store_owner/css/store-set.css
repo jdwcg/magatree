@@ -15,6 +15,10 @@
 .selectWrap select:first-child { margin-right: 10px; }
 .selectWrap select:last-child { margin-left: 10px; }
 
+.telWrap { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.telWrap select { -webkit-box-flex: .2; -ms-flex: .2; flex: .2; }
+.telWrap input { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
+
 .adressSearchWrap { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .adressSearchWrap input { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
 .adressSearchWrap input:first-child { margin-right: 10px; }
