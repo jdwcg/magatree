@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
    <link rel="stylesheet" href="assets/reset.css">
    <link rel="stylesheet" href="assets/magaeffect.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <title>megatree</title>
 </head>
@@ -93,6 +94,20 @@
       </article>
    </section>
 </div>
+
+<!-- 챗봇 시작 -->
+<div class="chatbot"></div>
+<script>
+$(document).ready(function() {
+  $.ajax({
+     url : "chatbot.html",
+     success : function(result) {
+         $(".chatbot").html(result);
+     }
+  });
+ });
+</script>
+<!-- 챗봇 끝 -->
 <script>
 function couponCheck() {
      if (confirm("쿠폰을 받으시겠습니까? 받은 쿠폰은 쿠폰함에 저장됩니다.") == true){
