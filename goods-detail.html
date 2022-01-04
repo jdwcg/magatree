@@ -107,7 +107,20 @@
   <div id="top"><button><i class="fas fa-arrow-up"></i></div>
 
 </div>
-
+<!-- 챗봇 시작 -->
+<div class="chatbot"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $.ajax({
+     url : "chatbot.html",
+     success : function(result) {
+         $(".chatbot").html(result);
+     }
+  });
+ });
+</script>
+<!-- 챗봇 끝 -->
 
 <div class="height"></div>
 <div class="height"></div>

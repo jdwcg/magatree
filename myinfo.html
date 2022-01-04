@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="assets/myinfo.css">
   <title>Document</title>
 </head>
@@ -93,6 +94,20 @@
   </div>
 </section>
 <section style="height: 50vh"></section>
+
+<!-- 챗봇 시작 -->
+<div class="chatbot"></div>
+<script>
+$(document).ready(function() {
+  $.ajax({
+     url : "chatbot.html",
+     success : function(result) {
+         $(".chatbot").html(result);
+     }
+  });
+ });
+</script>
+<!-- 챗봇 끝 -->
 
 <footer class="bottomNav">
   <div class="btns">
