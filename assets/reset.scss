@@ -141,7 +141,7 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
         @media(max-width:300px) {padding: 0;}
          &:nth-child(1) {
            // background: #fde7cc !important;
-           background: url('https://raw.githubusercontent.com/jdwcg/megatree/master/assets/imgs/texture.jpg');
+           background: url('../assets/imgs/texture.jpg');
             position: relative;
             &:after {
                content:'';
@@ -171,7 +171,7 @@ h5{font-size: 18px;}h6{font-size: 14px; font-weight: 500;}
             }
          }
          &:nth-child(2) {
-           background: url('https://raw.githubusercontent.com/jdwcg/megatree/master/assets/imgs/texture.jpg');
+           background: url('../assets/imgs/texture.jpg');
             position: relative;
             &:after {
                content:'';

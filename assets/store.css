@@ -1,76 +1,307 @@
 @import url("reset.css");
-.popup { overflow-y: hidden; }
+.popup {
+  overflow-y: hidden;
+}
 
-section { padding: 1rem 1em; }
+section {
+  padding: 1rem 1em;
+}
 
-.store:last-child { margin-bottom: 6rem; }
+.store:last-child {
+  margin-bottom: 6rem;
+}
 
-.thumbnail-width { margin: 0 !important; padding: .6rem 0; }
-.thumbnail-width .imgWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; overflow: hidden; height: 140px; }
-.thumbnail-width .imgWrap img { height: cover; }
-@media (max-width: 380px) { .thumbnail-width .imgWrap { height: 164px; } }
-@media (max-width: 360px) { .thumbnail-width .imgWrap { height: 188px; } }
-.thumbnail-width ul { background: #fff !important; position: relative; }
-.thumbnail-width ul a { position: absolute; left: 0; top: 0; width: 100%; height: 65%; }
+.thumbnail-width {
+  margin: 0 !important;
+  padding: .6rem 0;
+}
 
-nav { display: -webkit-box; display: -ms-flexbox; display: flex; z-index: 9; background: #fff; width: 640px; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; position: fixed; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-bottom: 1px solid #eee; font-size: 24px; padding: .4rem 1rem; }
-@media (max-width: 640px) { nav { width: 100%; } }
-nav span { font-size: 18px; }
+.thumbnail-width .imgWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  height: 140px;
+}
 
-.navHeight { position: relative; z-index: 8; top: 0; height: 48px; }
+.thumbnail-width .imgWrap img {
+  height: cover;
+}
 
-div.searchsection { position: fixed; z-index: 5; width: 100%; top: -246px; -webkit-transition: -webkit-transform .6s ease-in-out; transition: -webkit-transform .6s ease-in-out; transition: transform .6s ease-in-out; transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out; background: #fff; padding: 1rem; }
-div.searchsection div.searchBtn { max-width: 640px; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
-div.searchsection div.searchBtn input:not(:last-child) { margin-right: 10px; }
-div.searchsection div.searchBtn input[type="text"] { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
-div.searchsection div.searchBtn input[type="submit"] { -webkit-box-flex: .3; -ms-flex: .3; flex: .3; }
-div.searchsection div.keyword { max-width: 640px; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
-div.searchsection div.keyword > h6 { border-radius: 20px; padding: 6px; margin: 1rem 1em 0 0; border: 2px solid #eee; }
-div.searchsection div.searchResult { max-width: 640px; margin: 0 auto; padding: 1rem 0; }
+@media (max-width: 380px) {
+  .thumbnail-width .imgWrap {
+    height: 164px;
+  }
+}
 
-.slideDown { -webkit-transform: translateY(292px); transform: translateY(292px); border-radius: 0 0 1.5rem 1.5rem; -webkit-box-shadow: 0 15px 15px rgba(50, 50, 50, 0.2); box-shadow: 0 15px 15px rgba(50, 50, 50, 0.2); }
+@media (max-width: 360px) {
+  .thumbnail-width .imgWrap {
+    height: 188px;
+  }
+}
 
-@media (min-width: 480px) { .thumbnail { width: 480px; } }
-.thumbnail article div:nth-child(2) { position: relative; }
-.thumbnail article div:nth-child(2) i { color: tomato; position: absolute; right: 16px; }
+.thumbnail-width ul {
+  background: #fff !important;
+  position: relative;
+}
 
-.storeViewWrap { background: #e0e6ea !important; }
-.storeViewWrap:nth-child(2) { border-radius: 0 0 8px 8px !important; }
+.thumbnail-width ul a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 65%;
+}
 
-.btnWrap-storeDetail { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 1rem 1em !important; background: #e0e6ea !important; border-radius: 0 0 8px 8px !important; }
-.btnWrap-storeDetail button { background: #fff; cursor: pointer; }
-.btnWrap-storeDetail button i { position: relative !important; left: -4px; color: #222 !important; }
-.btnWrap-storeDetail :not(:last-child) { margin-right: .6rem; }
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 9;
+  background: #fff;
+  width: 640px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #eee;
+  font-size: 24px;
+  padding: .4rem 1rem;
+}
 
-.storeView { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start !important; -ms-flex-pack: start !important; justify-content: flex-start !important; -webkit-box-align: start !important; -ms-flex-align: start !important; align-items: flex-start !important; background: transparent !important; padding: 0 1em .4rem; height: auto !important; }
-.storeView ul { word-break: keep-all; font-size: 14px !important; padding: 0 1rem 0 0 !important; }
-.storeView ul:first-child { font-weight: 600 !important; }
-.storeView ul:first-child li { color: #919191; }
+@media (max-width: 640px) {
+  nav {
+    width: 100%;
+  }
+}
 
-.thumbnail article div:first-child { height: auto; background: #fff; }
+nav span {
+  font-size: 18px;
+}
 
-.slick-arrow { color: transparent !important; background: transparent !important; }
+.navHeight {
+  position: relative;
+  z-index: 8;
+  top: 0;
+  height: 48px;
+}
 
-.thumbnail article div:last-child { padding: 0; }
+div.searchsection {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  top: -246px;
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+  background: #fff;
+  padding: 1rem;
+}
 
-.thumbnail article div:last-child { border-radius: 0; }
+div.searchsection div.searchBtn {
+  max-width: 640px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
-.slider { width: 100%; padding: 0; background: #eee; border-radius: 0; }
+div.searchsection div.searchBtn input:not(:last-child) {
+  margin-right: 10px;
+}
 
-.slick-slide { height: 100%; }
+div.searchsection div.searchBtn input[type="text"] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
 
-.slick-slide img { width: 100%; }
+div.searchsection div.searchBtn input[type="submit"] {
+  -webkit-box-flex: .3;
+      -ms-flex: .3;
+          flex: .3;
+}
 
-.slick-prev:before, .slick-next:before { color: white; position: absolute; }
+div.searchsection div.keyword {
+  max-width: 640px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
 
-.slick-prev:before { left: 40px; }
+div.searchsection div.keyword > h6 {
+  border-radius: 20px;
+  padding: 6px;
+  margin: 1rem 1em 0 0;
+  border: 2px solid #eee;
+}
 
-.slick-next:before { right: 40px; }
+div.searchsection div.searchResult {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
 
-.slick-slide { -webkit-transition: all ease-in-out .3s; transition: all ease-in-out .3s; opacity: .2; }
+.slideDown {
+  -webkit-transform: translateY(292px);
+          transform: translateY(292px);
+  border-radius: 0 0 1.5rem 1.5rem;
+  -webkit-box-shadow: 0 15px 15px rgba(50, 50, 50, 0.2);
+          box-shadow: 0 15px 15px rgba(50, 50, 50, 0.2);
+}
 
-.slick-active { opacity: .5; }
+@media (min-width: 480px) {
+  .thumbnail {
+    width: 480px;
+  }
+}
 
-.slick-current { opacity: 1; }
+.thumbnail article div:nth-child(2) {
+  position: relative;
+}
 
+.thumbnail article div:nth-child(2) i {
+  color: tomato;
+  position: absolute;
+  right: 16px;
+}
+
+.storeViewWrap {
+  background: #e0e6ea !important;
+}
+
+.storeViewWrap:nth-child(2) {
+  border-radius: 0 0 8px 8px !important;
+}
+
+.btnWrap-storeDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 1em !important;
+  background: #e0e6ea !important;
+  border-radius: 0 0 8px 8px !important;
+}
+
+.btnWrap-storeDetail button {
+  background: #fff;
+  cursor: pointer;
+}
+
+.btnWrap-storeDetail button i {
+  position: relative !important;
+  left: -4px;
+  color: #222 !important;
+}
+
+.btnWrap-storeDetail :not(:last-child) {
+  margin-right: .6rem;
+}
+
+.storeView {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  background: transparent !important;
+  padding: 0 1em .4rem;
+  height: auto !important;
+}
+
+.storeView ul {
+  word-break: keep-all;
+  font-size: 14px !important;
+  padding: 0 1rem 0 0 !important;
+}
+
+.storeView ul:first-child {
+  font-weight: 600 !important;
+}
+
+.storeView ul:first-child li {
+  color: #919191;
+}
+
+.thumbnail article div:first-child {
+  height: auto;
+  background: #fff;
+}
+
+.slick-arrow {
+  color: transparent !important;
+  background: transparent !important;
+}
+
+.thumbnail article div:last-child {
+  padding: 0;
+}
+
+.thumbnail article div:last-child {
+  border-radius: 0;
+}
+
+.slider {
+  width: 100%;
+  padding: 0;
+  background: #eee;
+  border-radius: 0;
+}
+
+.slick-slide {
+  height: 100%;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  position: absolute;
+}
+
+.slick-prev:before {
+  left: 40px;
+}
+
+.slick-next:before {
+  right: 40px;
+}
+
+.slick-slide {
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
 /*# sourceMappingURL=store.css.map */
