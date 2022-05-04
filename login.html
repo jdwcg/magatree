@@ -7,19 +7,43 @@
    <title>megatree</title>
 </head>
 <body>
+  <style>
+  button {
+    background: #E76666;
+  }
+  .login_junction {
+    display: flex;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .login_junction button:not(:last-child) {
+    margin-right: 10px;
+  }
+  .login_junction button {
+    width: 100px;
+  }
+  .logo {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .logo > img {
+    width: 100%;
+  }
+  .formComponent {
+    text-align: center;
+  }
+  </style>
 <div class="container">
 <!-- 인풋버튼컨포넌트 -->
 <section class="formComponent">
-  <h1>Magatree <span>TV</span></h1>
-  <form action="">
-    <input type="text" placeholder="이메일(로그인ID)">
-    <input type="password" placeholder="비밀번호">
-    <input type="button" onclick="location.href='index.html'" value="로그인">
-  </form>
-  <hr>
-  <button onclick="location.href='signup.html'">회원가입</button>
-  <a href="passfind.html">비밀번호찾기</a>
-  <p>※ 아이디 또는 비밀번호를 다시 확인해 주세요.</p>
+  <h1 class="logo">
+    <img src="assets/imgs/krepe.png" alt="">
+  </h1>
+  <div class="login_junction">
+    <button onclick="location.href='./login_user.html'">고객용<br />로그인</button>
+    <button onclick="location.href='./store_owner/index.html'">점주용<br />로그인</button>
+  </div>
+  <p>※ 점주용 또는 고객용 로그인 버튼을 선택해 주세요.</p>
 </section>
 </div>
 
