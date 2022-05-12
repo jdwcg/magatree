@@ -1,324 +1,66 @@
 @import url("goods.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
-section {
-  background: #FDE7CC;
-}
+section { background: #FDE7CC; }
 
-.myinfoBodyWrap {
-  padding-bottom: 5em;
-  background: url("https://raw.githubusercontent.com/jdwcg/megatree/master/assets/imgs/mainbg.png") #FDE7CC no-repeat;
-  background-size: 100% 100%;
-  height: 240px;
-}
+.myinfoBodyWrap { padding-bottom: 5em; background: url("https://raw.githubusercontent.com/jdwcg/megatree/master/assets/imgs/mainbg.png") #FDE7CC no-repeat; background-size: 100% 100%; height: 240px; }
 
-.myinfoWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+.myinfoWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-.myinfoWrap {
-  padding-bottom: 0;
-}
+.myinfoWrap { padding-bottom: 0; }
 
-.myinfo {
-  padding-top: 2rem;
-  position: relative;
-  background: #fff;
-  margin: 0 auto;
-  margin-bottom: 1em;
-  width: 100%;
-  border-radius: 8px;
-  padding: 1.4rem 1em;
-}
+.myinfo { padding-top: 2rem; position: relative; background: #fff; margin: 0 auto; margin-bottom: 1em; width: 100%; border-radius: 8px; padding: 1.4rem 1em; }
+@media (min-width: 310px) { .myinfo { max-width: 310px; } }
+.myinfo .myinfoCardWrap .myinfoCard { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.myinfo .myinfoCardWrap .myinfoCard .myinfotxt { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 1rem; }
+.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto { padding-right: 10px; }
+.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto > i { font-size: 2rem; color: #ddd; }
+.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfoprofile { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: 14px; text-align: left; }
+.myinfo .myinfoset { font-size: 18px; position: absolute; right: 10px; top: 10px; color: #222; }
 
-@media (min-width: 310px) {
-  .myinfo {
-    max-width: 310px;
-  }
-}
+.btn-mainWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 10px; }
 
-.myinfo .myinfoCardWrap .myinfoCard {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
+.btn-main { background: #fff; border-radius: 8px; padding: 1rem 0; width: 100%; position: relative; text-align: center; font-size: 14px; padding: 1rem 2em; }
+.btn-main > a { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+@media (min-width: 360px) { .btn-main { width: 150px; } }
+.btn-main i { font-size: 40px; color: #EE7766; }
+.btn-main:not(:last-child) { margin-right: 10px; }
+.btn-main hr { border: none; background: #F4E3E1; height: 1px; margin: .7rem 0; }
 
-.myinfo .myinfoCardWrap .myinfoCard .myinfotxt {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1rem;
-}
+.myinfoupdate { background: #f5f5f5; }
+.myinfoupdate input { background: #fff; }
 
-.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto {
-  padding-right: 10px;
-}
+.myinfoupdateBtn { margin-top: 1em; }
+.myinfoupdateBtn button { background: #e76666; color: #fff; }
 
-.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfofoto > i {
-  font-size: 2rem;
-  color: #ddd;
-}
+.myinfoupdateBtnBool { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.myinfoupdateBtnBool button { background: #ddd; }
+.myinfoupdateBtnBool button:not(:last-child) { margin-right: 10px; }
 
-.myinfo .myinfoCardWrap .myinfoCard .myinfotxt .myinfoprofile {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-size: 14px;
-  text-align: left;
-}
+.thumbnailWrap .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em 0 2em; padding: 0 1.4em; }
+@media (min-width: 480px) { .thumbnailWrap .tabBtnWrap { width: 480px; margin: 1em auto; } }
+.thumbnailWrap .tabBtnWrap > button { cursor: pointer; background: #ddd; width: 100%; }
+.thumbnailWrap .tabBtnWrap > button:not(:last-child) { margin-right: 10px; background: #e76666; color: #fff; }
 
-.myinfo .myinfoset {
-  font-size: 18px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  color: #222;
-}
+.thumbnailWrapoff .tabBtnWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 1em 0 2em; padding: 0 1.4em; }
+@media (min-width: 480px) { .thumbnailWrapoff .tabBtnWrap { width: 480px; margin: 1em auto; } }
+.thumbnailWrapoff .tabBtnWrap > button { cursor: pointer; background: #e76666; color: #fff; width: 100%; }
+.thumbnailWrapoff .tabBtnWrap > button:not(:last-child) { margin-right: 10px; background: #ddd; color: #222; }
 
-.btn-mainWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 10px;
-}
+.couponoff > article > div { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
-.btn-main {
-  background: #fff;
-  border-radius: 8px;
-  padding: 1rem 0;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  font-size: 14px;
-  padding: 1rem 2em;
-}
+.couponcaution { max-width: 480px; padding: 0 1em 0; }
+.couponcaution > div { background: #fff; border: 1px dashed #ccc; padding: 1.4rem; margin: 0 .4em 1rem; border-radius: 1.2rem; }
+.couponcaution > div h4 { padding: .4rem 0; }
+.couponcaution > div p { font-size: 14px; }
 
-.btn-main > a {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
+.couponconfirmWrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 0 auto; }
+@media (min-width: 480px) { .couponconfirmWrap { width: 480px; } }
+.couponconfirmWrap > .couponconfirm .col { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+@media (min-width: 480px) { .couponconfirmWrap > .couponconfirm .col { padding: 0 1em; } }
+.couponconfirmWrap > .couponconfirm .col button { background: #e76666; color: #fff; cursor: pointer; margin: 0; font-size: 16px; font-weight: 500; padding: 14px 24px; margin: 0 .4em; }
+.couponconfirmWrap > .couponconfirm .col:last-child { padding: 0 1.4em 0 2.2em; word-break: keep-all; padding-top: 1em; }
+@media (min-width: 480px) { .couponconfirmWrap > .couponconfirm .col:last-child { width: 480px; } }
+.couponconfirmWrap > .couponconfirm .col:last-child ul h3 { font-size: 12px; color: tomato; }
+.couponconfirmWrap > .couponconfirm .col:last-child ul li { list-style: disc; font-size: 12px; }
 
-@media (min-width: 360px) {
-  .btn-main {
-    width: 150px;
-  }
-}
-
-.btn-main i {
-  font-size: 40px;
-  color: #EE7766;
-}
-
-.btn-main:not(:last-child) {
-  margin-right: 10px;
-}
-
-.btn-main hr {
-  border: none;
-  background: #F4E3E1;
-  height: 1px;
-  margin: .7rem 0;
-}
-
-.myinfoupdate {
-  background: #f5f5f5;
-}
-
-.myinfoupdate input {
-  background: #fff;
-}
-
-.myinfoupdateBtn {
-  margin-top: 1em;
-}
-
-.myinfoupdateBtn button {
-  background: #e76666;
-  color: #fff;
-}
-
-.myinfoupdateBtnBool {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.myinfoupdateBtnBool button {
-  background: #ddd;
-}
-
-.myinfoupdateBtnBool button:not(:last-child) {
-  margin-right: 10px;
-}
-
-.thumbnailWrap .tabBtnWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 1em 0 2em;
-  padding: 0 1.4em;
-}
-
-@media (min-width: 480px) {
-  .thumbnailWrap .tabBtnWrap {
-    width: 480px;
-    margin: 1em auto;
-  }
-}
-
-.thumbnailWrap .tabBtnWrap > button {
-  cursor: pointer;
-  background: #ddd;
-  width: 100%;
-}
-
-.thumbnailWrap .tabBtnWrap > button:not(:last-child) {
-  margin-right: 10px;
-  background: #e76666;
-  color: #fff;
-}
-
-.thumbnailWrapoff .tabBtnWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 1em 0 2em;
-  padding: 0 1.4em;
-}
-
-@media (min-width: 480px) {
-  .thumbnailWrapoff .tabBtnWrap {
-    width: 480px;
-    margin: 1em auto;
-  }
-}
-
-.thumbnailWrapoff .tabBtnWrap > button {
-  cursor: pointer;
-  background: #e76666;
-  color: #fff;
-  width: 100%;
-}
-
-.thumbnailWrapoff .tabBtnWrap > button:not(:last-child) {
-  margin-right: 10px;
-  background: #ddd;
-  color: #222;
-}
-
-.couponoff > article > div {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
-.couponcaution {
-  max-width: 480px;
-  padding: 0 1em 0;
-}
-
-.couponcaution > div {
-  background: #fff;
-  border: 1px dashed #ccc;
-  padding: 1.4rem;
-  margin: 0 .4em 1rem;
-  border-radius: 1.2rem;
-}
-
-.couponcaution > div h4 {
-  padding: .4rem 0;
-}
-
-.couponcaution > div p {
-  font-size: 14px;
-}
-
-.couponconfirmWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0 auto;
-}
-
-@media (min-width: 480px) {
-  .couponconfirmWrap {
-    width: 480px;
-  }
-}
-
-.couponconfirmWrap > .couponconfirm .col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (min-width: 480px) {
-  .couponconfirmWrap > .couponconfirm .col {
-    padding: 0 1em;
-  }
-}
-
-.couponconfirmWrap > .couponconfirm .col button {
-  background: #e76666;
-  color: #fff;
-  cursor: pointer;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 14px 24px;
-  margin: 0 .4em;
-}
-
-.couponconfirmWrap > .couponconfirm .col:last-child {
-  padding: 0 1.4em 0 2.2em;
-  word-break: keep-all;
-  padding-top: 1em;
-}
-
-@media (min-width: 480px) {
-  .couponconfirmWrap > .couponconfirm .col:last-child {
-    width: 480px;
-  }
-}
-
-.couponconfirmWrap > .couponconfirm .col:last-child ul h3 {
-  font-size: 12px;
-  color: tomato;
-}
-
-.couponconfirmWrap > .couponconfirm .col:last-child ul li {
-  list-style: disc;
-  font-size: 12px;
-}
 /*# sourceMappingURL=myinfo.css.map */
