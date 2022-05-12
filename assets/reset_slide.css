@@ -4,14 +4,7 @@
     padding: 0 0 1rem;
     background: #f5f5f5;
 }
-@media (max-width:480px) {
-  .slider {
-    padding: 0 0 0 24px;
-  }
-  .slick-next, .slick-arrow {
-    display: none !important;
-  }
-}
+
 
 .slick-slide {
   margin: 0px 7px 0;
@@ -53,3 +46,17 @@
 }
 .thumbnail_slide {padding: 0;}
 .thumbnail_slide_inner {max-width: 210px;}
+
+.thumbnail_slide_inner {
+  width: 50%;
+}
+@media (max-width:480px) {
+  .slider {
+    padding: 0 0 0 24px;
+    max-width: 480px;
+  }
+
+  .slick-next, .slick-arrow {
+    display: none !important;
+  }
+}
