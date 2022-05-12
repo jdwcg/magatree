@@ -6,7 +6,7 @@
 }
 @media (max-width:480px) {
   .slider {
-    padding: 0 24px 1rem;
+    padding: 0 0 0 24px;
   }
   .slick-next, .slick-arrow {
     display: none !important;
